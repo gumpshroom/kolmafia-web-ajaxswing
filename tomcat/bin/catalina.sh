@@ -40,7 +40,7 @@
 #                   the version command etc.
 #                   Examples are heap size, GC logging, JMX ports etc.
 #
-CATALINA_OPTS = "--host 0.0.0.0 --port $PORT"
+$CATALINA_OPTS = "--host 0.0.0.0 --port $PORT"
 #   CATALINA_TMPDIR (Optional) Directory path location of temporary directory
 #                   the JVM should use (java.io.tmpdir).  Defaults to
 #                   $CATALINA_BASE/temp.
