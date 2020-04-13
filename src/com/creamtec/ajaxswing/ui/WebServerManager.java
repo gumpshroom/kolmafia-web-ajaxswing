@@ -119,7 +119,7 @@ public class WebServerManager {
         try {
             console.showStatus("Checking if web server is running...");
             // Trying to connect to the webserver to make sure it's up
-            URL url = new URL("http://0.0.0.0:8040");
+            URL url = new URL("http://0.0.0.0:$PORT");
             URLConnection con = url.openConnection();
             java.io.InputStream is = con.getInputStream();
             is.close();

@@ -24,7 +24,7 @@
 11-Apr-2020 17:39:28.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 17:39:28.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 17:39:28.490 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 17:39:28.610 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:39:28.610 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:39:28.627 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 17:39:28.633 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 17:39:28.634 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -37,11 +37,11 @@
 11-Apr-2020 17:39:34.616 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 17:39:34.886 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 17:39:34.888 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [273] ms
-11-Apr-2020 17:39:34.890 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:39:34.890 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:39:34.896 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 17:39:34.898 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6263 ms
 11-Apr-2020 17:40:23.846 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 17:40:23.846 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:40:23.846 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:40:23.900 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 17:40:23.955 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 17:40:23.969 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -76,9 +76,9 @@
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 17:40:23.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:40:23.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:40:23.990 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 17:40:23.991 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:40:23.991 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:40:23.992 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:10:02.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:10:02.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -106,7 +106,7 @@
 11-Apr-2020 18:10:02.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:10:02.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:10:02.955 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:10:03.053 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:10:03.053 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:10:03.072 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:10:03.080 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:10:03.081 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -119,7 +119,7 @@
 11-Apr-2020 18:10:09.020 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:10:09.277 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:10:09.279 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [259] ms
-11-Apr-2020 18:10:09.281 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:10:09.281 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:10:09.286 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:10:09.287 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6206 ms
 11-Apr-2020 18:17:15.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
@@ -148,9 +148,9 @@
 11-Apr-2020 18:17:15.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:17:15.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:17:15.009 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:17:15.093 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
-11-Apr-2020 18:17:15.104 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8040]]
- org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8040]]
+11-Apr-2020 18:17:15.093 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
+11-Apr-2020 18:17:15.104 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-$PORT]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-$PORT]]
 	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
 	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
 	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
@@ -241,19 +241,19 @@ Caused by: java.net.BindException: Address already in use
 	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
 
-11-Apr-2020 18:17:22.348 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:17:22.348 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:17:22.348 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:17:22.348 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:17:22.352 WARNING [0.0.0.0-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Thread.sleep(Native Method)
  ForcedShutdownServlet.run(ForcedShutdownServlet.java:29)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
-11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
+11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:41.497 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:20:41.498 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:41.498 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:41.554 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:41.609 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:20:41.621 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -292,9 +292,9 @@ Caused by: java.net.BindException: Address already in use
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
 11-Apr-2020 18:20:41.630 SEVERE [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets Found RMI Target with stub class class [com.creamtec.ajaxswing.core.JVMFactory_Stub] and value [JVMFactory_Stub[UnicastRef [liveRef: [endpoint:[192.168.0.106:55951](local),objID:[d01936c:1716b4aea36:-7fff, 1513664815904999301]]]]]. This RMI Target has been forcibly removed to prevent a memory leak.
-11-Apr-2020 18:20:41.630 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:41.630 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:41.632 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:20:41.634 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:41.634 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:41.634 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:43.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:20:43.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -322,7 +322,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:20:43.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:20:43.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:20:43.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:20:43.711 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:43.711 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:43.726 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:20:43.732 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:43.733 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -335,11 +335,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:20:50.286 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:20:50.941 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:20:50.942 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [656] ms
-11-Apr-2020 18:20:50.944 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:50.944 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:50.948 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:50.949 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7216 ms
 11-Apr-2020 18:21:44.174 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:21:44.174 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:44.174 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:44.229 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:21:44.285 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:21:44.299 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -375,9 +375,9 @@ Caused by: java.net.BindException: Address already in use
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 18:21:44.311 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:44.311 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:44.313 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:21:44.315 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:44.315 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:44.316 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:21:46.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:21:46.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -405,7 +405,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:21:46.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:21:46.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:21:46.069 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:21:46.164 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:46.164 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:46.183 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:21:46.189 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:21:46.190 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -418,11 +418,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:21:52.629 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:21:53.285 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:21:53.287 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [658] ms
-11-Apr-2020 18:21:53.289 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:53.289 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:53.294 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:21:53.296 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7105 ms
 11-Apr-2020 18:25:22.458 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:25:22.459 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:22.459 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:22.515 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:25:22.569 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:25:22.580 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -451,9 +451,9 @@ Caused by: java.net.BindException: Address already in use
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:25:22.593 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:22.593 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:22.595 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:25:22.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:22.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:22.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:25:23.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:25:23.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -481,7 +481,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:25:23.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:25:23.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:25:23.909 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:25:23.988 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:23.988 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:24.004 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:25:24.010 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:25:24.011 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -494,11 +494,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:25:30.452 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:25:31.107 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:25:31.109 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [657] ms
-11-Apr-2020 18:25:31.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:31.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:31.115 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:25:31.117 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7104 ms
 11-Apr-2020 18:33:26.440 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:33:26.440 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:26.440 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:26.497 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:33:26.553 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:33:26.564 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -527,9 +527,9 @@ Caused by: java.net.BindException: Address already in use
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:33:26.575 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:26.575 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:26.576 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:33:26.577 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:26.577 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:26.578 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:33:28.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:33:28.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -557,7 +557,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:33:28.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:33:28.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:33:28.037 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:33:28.120 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:28.120 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:28.140 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:33:28.147 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:33:28.148 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -570,11 +570,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:33:34.661 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:33:35.317 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:33:35.319 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [658] ms
-11-Apr-2020 18:33:35.321 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:35.321 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:35.326 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:33:35.327 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7178 ms
 11-Apr-2020 18:34:52.819 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:34:52.820 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:34:52.820 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:34:52.875 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:34:52.927 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:34:52.938 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -603,9 +603,9 @@ Caused by: java.net.BindException: Address already in use
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:34:52.950 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:34:52.950 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:34:52.952 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:34:52.953 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:34:52.953 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:34:52.954 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:34:54.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:34:54.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -633,7 +633,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:34:54.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:34:54.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:34:54.010 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:34:54.088 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:34:54.088 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:34:54.104 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:34:54.110 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:34:54.111 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -646,11 +646,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:35:00.495 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:35:01.213 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:35:01.215 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [720] ms
-11-Apr-2020 18:35:01.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:35:01.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:35:01.222 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:35:01.223 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7111 ms
 11-Apr-2020 18:38:06.935 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:38:06.936 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:06.936 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:06.990 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:38:07.043 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:38:07.057 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -679,9 +679,9 @@ Caused by: java.net.BindException: Address already in use
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:38:07.069 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:07.069 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:07.071 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:38:07.073 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:07.073 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:07.073 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:38:08.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:38:08.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -709,7 +709,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:38:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:38:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:38:08.455 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:38:08.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:08.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:08.556 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:38:08.563 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:38:08.564 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -722,11 +722,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:38:14.946 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:38:15.597 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:38:15.599 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [653] ms
-11-Apr-2020 18:38:15.601 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:15.601 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:15.605 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:38:15.607 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7043 ms
 11-Apr-2020 18:39:45.744 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:39:45.745 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:45.745 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:45.801 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:39:45.855 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:39:45.866 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -780,9 +780,9 @@ Caused by: java.net.BindException: Address already in use
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 18:39:45.878 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:45.878 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:45.880 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:39:45.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:45.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:45.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:39:46.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:39:46.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -810,7 +810,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:39:46.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:39:46.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:39:46.842 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:39:46.945 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:46.945 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:46.964 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:39:46.970 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:39:46.971 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -823,11 +823,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:39:53.477 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:39:54.210 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:39:54.212 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [735] ms
-11-Apr-2020 18:39:54.214 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:54.214 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:54.219 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:39:54.220 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7248 ms
 11-Apr-2020 18:43:05.620 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:43:05.621 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:05.621 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:05.674 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:43:05.729 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:43:05.739 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -884,9 +884,9 @@ Caused by: java.net.BindException: Address already in use
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 18:43:05.752 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:05.752 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:05.754 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:43:05.755 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:05.755 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:05.756 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:43:20.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:43:20.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -914,7 +914,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:43:20.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:43:20.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:43:20.109 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:43:20.186 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:20.186 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:20.203 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:43:20.209 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:43:20.210 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -927,11 +927,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:43:26.565 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:43:27.309 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:43:27.311 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [746] ms
-11-Apr-2020 18:43:27.313 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:27.313 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:27.318 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:43:27.319 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7108 ms
 11-Apr-2020 18:54:03.333 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:54:03.334 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:03.334 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:03.391 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:54:03.445 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:54:03.456 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -957,9 +957,9 @@ Caused by: java.net.BindException: Address already in use
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:54:03.467 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:03.467 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:03.469 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:54:03.471 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:03.471 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:03.471 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:54:04.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:54:04.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -987,7 +987,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:54:04.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:54:04.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:54:04.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:54:04.645 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:04.645 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:04.666 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:54:04.672 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:54:04.674 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1000,11 +1000,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:54:11.292 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:54:12.007 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:54:12.009 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [717] ms
-11-Apr-2020 18:54:12.012 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:12.012 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:12.017 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:54:12.018 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7344 ms
 11-Apr-2020 18:56:43.823 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:56:43.824 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:43.824 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:43.880 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:56:43.936 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 18:56:43.947 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -1030,9 +1030,9 @@ Caused by: java.net.BindException: Address already in use
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:56:43.958 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:43.958 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:43.960 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:56:43.969 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:43.969 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:43.969 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:56:45.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:56:45.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1060,7 +1060,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:56:45.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:56:45.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:56:45.315 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:56:45.400 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:45.400 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:45.419 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:56:45.427 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:56:45.429 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1073,11 +1073,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 18:56:51.991 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:56:52.776 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:56:52.778 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [787] ms
-11-Apr-2020 18:56:52.781 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:52.781 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:52.786 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:56:52.787 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7357 ms
 11-Apr-2020 19:02:10.157 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 19:02:10.157 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:02:10.157 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:02:10.213 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:02:10.270 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 19:02:10.284 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -1103,9 +1103,9 @@ Caused by: java.net.BindException: Address already in use
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 19:02:10.295 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:02:10.295 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:02:10.298 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 19:02:10.299 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:02:10.299 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:02:10.300 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:03:56.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 19:03:56.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1133,7 +1133,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 19:03:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 11-Apr-2020 19:03:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 11-Apr-2020 19:03:56.812 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 19:03:56.908 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:03:56.908 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:03:56.927 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 19:03:56.933 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:03:56.934 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1146,11 +1146,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 19:04:03.349 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 19:04:04.015 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 19:04:04.017 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [668] ms
-11-Apr-2020 19:04:04.019 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:04:04.019 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:04:04.025 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:04:04.027 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7091 ms
 11-Apr-2020 19:04:57.380 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 19:04:57.380 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:04:57.380 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:04:57.432 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:04:57.484 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 19:04:57.493 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -1160,9 +1160,9 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 19:04:57.501 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Thread.sleep(Native Method)
  com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
-11-Apr-2020 19:04:57.503 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:04:57.503 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:04:57.505 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 19:04:57.506 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:04:57.506 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:04:57.506 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:06:02.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 19:06:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1190,7 +1190,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 19:06:02.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 11-Apr-2020 19:06:02.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 11-Apr-2020 19:06:02.288 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 19:06:02.381 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:06:02.381 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:06:02.399 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 19:06:02.406 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:06:02.407 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1203,11 +1203,11 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 19:06:08.852 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 19:06:09.631 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 19:06:09.633 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [781] ms
-11-Apr-2020 19:06:09.635 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:06:09.635 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:06:09.639 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:06:09.640 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7232 ms
 11-Apr-2020 20:58:08.265 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 20:58:08.267 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:08.267 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:08.320 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 20:58:08.375 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 20:58:08.386 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -1220,9 +1220,9 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 20:58:08.727 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Thread.sleep(Native Method)
  com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
-11-Apr-2020 20:58:08.729 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:08.729 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:08.731 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 20:58:08.732 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:08.732 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:08.733 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 20:58:08.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 20:58:08.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1250,7 +1250,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 20:58:08.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 11-Apr-2020 20:58:08.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 11-Apr-2020 20:58:08.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 20:58:08.958 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:08.958 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:08.974 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 20:58:08.981 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 20:58:08.982 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1263,10 +1263,10 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 20:58:15.431 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 20:58:16.121 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 20:58:16.124 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [692] ms
-11-Apr-2020 20:58:16.126 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:16.126 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:16.131 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 20:58:16.132 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7149 ms
-11-Apr-2020 21:57:52.412 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 21:57:52.412 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 21:57:52.482 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 21:57:52.537 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 11-Apr-2020 21:57:52.586 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
@@ -1279,7 +1279,7 @@ Caused by: java.net.BindException: Address already in use
 11-Apr-2020 21:57:52.619 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Thread.sleep(Native Method)
  com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
-11-Apr-2020 21:57:52.624 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 21:57:52.624 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 21:57:52.626 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 21:57:52.660 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 21:57:52.660 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 21:57:52.661 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

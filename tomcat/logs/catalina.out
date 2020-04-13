@@ -28,7 +28,7 @@ Error: A fatal exception has occurred. Program will exit.
 11-Apr-2020 17:39:28.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 17:39:28.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 17:39:28.490 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 17:39:28.610 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:39:28.610 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:39:28.627 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 17:39:28.633 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 17:39:28.634 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -43,15 +43,15 @@ Error: A fatal exception has occurred. Program will exit.
 11-Apr-2020 17:39:34.616 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 17:39:34.886 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 17:39:34.888 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [273] ms
-11-Apr-2020 17:39:34.890 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:39:34.890 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:39:34.896 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 17:39:34.898 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6263 ms
-2020/04/11 17:39:45:218 : http-nio-8040-exec-9 : for headless unix environments ensure xvfb is running
-2020/04/11 17:39:46:298 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 17:39:45:218 : http-nio-$PORT-exec-9 : for headless unix environments ensure xvfb is running
+2020/04/11 17:39:46:298 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/11 17:39:49:167 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 17:39:49:167 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 17:40:23.846 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 17:40:23.846 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:40:23.846 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:40:23.900 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 17:40:23.955 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -87,9 +87,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 17:40:23.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:40:23.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:40:23.990 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 17:40:23.991 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 17:40:23.991 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 17:40:23.992 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Forcing shutdown
 11-Apr-2020 18:10:02.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
@@ -118,7 +118,7 @@ Forcing shutdown
 11-Apr-2020 18:10:02.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:10:02.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:10:02.955 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:10:03.053 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:10:03.053 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:10:03.072 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:10:03.080 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:10:03.081 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -133,13 +133,13 @@ Forcing shutdown
 11-Apr-2020 18:10:09.020 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:10:09.277 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:10:09.279 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [259] ms
-11-Apr-2020 18:10:09.281 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:10:09.281 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:10:09.286 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:10:09.287 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6206 ms
-2020/04/11 18:10:09:387 : http-nio-8040-exec-1 : for headless unix environments ensure xvfb is running
-2020/04/11 18:10:09:888 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:10:09:387 : http-nio-$PORT-exec-1 : for headless unix environments ensure xvfb is running
+2020/04/11 18:10:09:888 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/11 18:10:13:693 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:10:13:693 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:17:15.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:17:15.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
 11-Apr-2020 18:17:15.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.33.0
@@ -166,9 +166,9 @@ EventQueue initialized
 11-Apr-2020 18:17:15.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:17:15.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:17:15.009 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:17:15.093 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
-11-Apr-2020 18:17:15.104 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8040]]
- org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8040]]
+11-Apr-2020 18:17:15.093 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
+11-Apr-2020 18:17:15.104 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-$PORT]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-$PORT]]
 	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
 	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
 	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
@@ -260,7 +260,7 @@ Caused by: java.net.BindException: Address already in use
 	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
 
-11-Apr-2020 18:17:22.348 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:17:22.348 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:17:22.348 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:17:22.348 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -268,11 +268,11 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.lang.Thread.sleep(Native Method)
  ForcedShutdownServlet.run(ForcedShutdownServlet.java:29)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
-11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
+11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:17:22.357 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
-2020/04/11 18:17:42:666 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper] Failed to process a request for session = org.apache.catalina.session.StandardSessionFacade@345453a2 (Exception com.creamtec.ajaxswing.core.AjaxSwingException, Failed to find application properties file for app kolmafia-20.3)
+2020/04/11 18:17:42:666 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper] Failed to process a request for session = org.apache.catalina.session.StandardSessionFacade@345453a2 (Exception com.creamtec.ajaxswing.core.AjaxSwingException, Failed to find application properties file for app kolmafia-20.3)
 2020/04/11 18:17:42:666 : [com.creamtec.ajaxswing.ServletHelper] Failed to process a request for session = org.apache.catalina.session.StandardSessionFacade@345453a2
 com.creamtec.ajaxswing.core.AjaxSwingException: Failed to find application properties file for app kolmafia-20.3
 	at com.creamtec.ajaxswing.core.AjaxSwingPropertiesManager.getAppProperties(AjaxSwingPropertiesManager.java:203)
@@ -343,7 +343,7 @@ com.creamtec.ajaxswing.core.AjaxSwingException: Failed to find application prope
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 11-Apr-2020 18:20:41.497 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:20:41.498 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:41.498 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:41.554 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:41.609 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -383,9 +383,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
 11-Apr-2020 18:20:41.630 SEVERE [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets Found RMI Target with stub class class [com.creamtec.ajaxswing.core.JVMFactory_Stub] and value [JVMFactory_Stub[UnicastRef [liveRef: [endpoint:[192.168.0.106:55951](local),objID:[d01936c:1716b4aea36:-7fff, 1513664815904999301]]]]]. This RMI Target has been forcibly removed to prevent a memory leak.
-11-Apr-2020 18:20:41.630 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:41.630 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:41.632 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:20:41.634 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:41.634 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:41.634 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:43.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:20:43.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -413,7 +413,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:20:43.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:20:43.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:20:43.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:20:43.711 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:43.711 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:43.726 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:20:43.732 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:43.733 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -429,11 +429,11 @@ Forcing shutdown
 11-Apr-2020 18:20:50.286 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:20:50.941 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:20:50.942 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [656] ms
-11-Apr-2020 18:20:50.944 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:20:50.944 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:20:50.948 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:20:50.949 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7216 ms
-2020/04/11 18:20:57:670 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/11 18:20:58:783 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:20:57:670 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/11 18:20:58:783 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -483,9 +483,9 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 
 username: Invalid login.
- > 2020/04/11 18:21:02:437 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 18:21:02:437 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:21:44.174 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:21:44.174 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:44.174 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:44.229 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:21:44.285 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -522,9 +522,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 18:21:44.311 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:44.311 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:44.313 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:21:44.315 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:44.315 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:44.316 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:21:46.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:21:46.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -552,7 +552,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:21:46.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:21:46.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:21:46.069 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:21:46.164 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:46.164 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:46.183 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:21:46.189 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:21:46.190 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -568,11 +568,11 @@ Forcing shutdown
 11-Apr-2020 18:21:52.629 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:21:53.285 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:21:53.287 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [658] ms
-11-Apr-2020 18:21:53.289 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:21:53.289 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:21:53.294 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:21:53.296 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7105 ms
-2020/04/11 18:21:53:783 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:21:54:669 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:21:53:783 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:21:54:669 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -622,9 +622,9 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 
 username: Invalid login.
- > 2020/04/11 18:21:58:378 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 18:21:58:378 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:25:22.458 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:25:22.459 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:22.459 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:22.515 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:25:22.569 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -654,9 +654,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:25:22.593 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:22.593 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:22.595 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:25:22.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:22.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:22.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:25:23.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:25:23.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -684,7 +684,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:25:23.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:25:23.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:25:23.909 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:25:23.988 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:23.988 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:24.004 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:25:24.010 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:25:24.011 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -700,11 +700,11 @@ Forcing shutdown
 11-Apr-2020 18:25:30.452 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:25:31.107 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:25:31.109 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [657] ms
-11-Apr-2020 18:25:31.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:25:31.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:25:31.115 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:25:31.117 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7104 ms
-2020/04/11 18:25:31:511 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:25:32:407 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:25:31:511 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:25:32:407 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -754,9 +754,9 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 
 username: Invalid login.
- > 2020/04/11 18:25:36:172 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 18:25:36:172 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:33:26.440 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:33:26.440 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:26.440 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:26.497 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:33:26.553 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -786,9 +786,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:33:26.575 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:26.575 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:26.576 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:33:26.577 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:26.577 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:26.578 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:33:28.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:33:28.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -816,7 +816,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:33:28.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:33:28.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:33:28.037 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:33:28.120 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:28.120 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:28.140 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:33:28.147 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:33:28.148 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -832,11 +832,11 @@ Forcing shutdown
 11-Apr-2020 18:33:34.661 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:33:35.317 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:33:35.319 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [658] ms
-11-Apr-2020 18:33:35.321 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:33:35.321 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:33:35.326 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:33:35.327 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7178 ms
-2020/04/11 18:33:35:763 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:33:36:615 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:33:35:763 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:33:36:615 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -848,9 +848,9 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
- > 2020/04/11 18:33:40:273 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 18:33:40:273 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:34:52.819 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:34:52.820 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:34:52.820 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:34:52.875 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:34:52.927 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -880,9 +880,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:34:52.950 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:34:52.950 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:34:52.952 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:34:52.953 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:34:52.953 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:34:52.954 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:34:54.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:34:54.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -910,7 +910,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:34:54.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:34:54.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:34:54.010 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:34:54.088 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:34:54.088 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:34:54.104 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:34:54.110 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:34:54.111 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -926,11 +926,11 @@ Forcing shutdown
 11-Apr-2020 18:35:00.495 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:35:01.213 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:35:01.215 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [720] ms
-11-Apr-2020 18:35:01.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:35:01.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:35:01.222 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:35:01.223 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7111 ms
-2020/04/11 18:35:01:639 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:35:02:507 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:35:01:639 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:35:02:507 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -942,9 +942,9 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
- > 2020/04/11 18:35:06:425 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 18:35:06:425 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:38:06.935 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:38:06.936 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:06.936 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:06.990 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:38:07.043 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -974,9 +974,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:38:07.069 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:07.069 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:07.071 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:38:07.073 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:07.073 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:07.073 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:38:08.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:38:08.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1004,7 +1004,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:38:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:38:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:38:08.455 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:38:08.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:08.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:08.556 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:38:08.563 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:38:08.564 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1020,11 +1020,11 @@ Forcing shutdown
 11-Apr-2020 18:38:14.946 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:38:15.597 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:38:15.599 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [653] ms
-11-Apr-2020 18:38:15.601 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:38:15.601 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:38:15.605 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:38:15.607 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7043 ms
-2020/04/11 18:38:19:911 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
-2020/04/11 18:38:21:003 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:38:19:911 : http-nio-$PORT-exec-2 : for headless unix environments ensure xvfb is running
+2020/04/11 18:38:21:003 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1036,12 +1036,12 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
- > 2020/04/11 18:38:24:817 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:38:56:942 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+ > 2020/04/11 18:38:24:817 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:38:56:942 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/11 18:38:57:678 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:38:57:678 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:39:45.744 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:39:45.745 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:45.745 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:45.801 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:39:45.855 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -1096,9 +1096,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 18:39:45.878 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:45.878 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:45.880 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:39:45.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:45.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:45.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:39:46.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:39:46.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1126,7 +1126,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:39:46.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:39:46.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:39:46.842 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:39:46.945 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:46.945 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:46.964 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:39:46.970 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:39:46.971 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1142,11 +1142,11 @@ Forcing shutdown
 11-Apr-2020 18:39:53.477 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:39:54.210 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:39:54.212 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [735] ms
-11-Apr-2020 18:39:54.214 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:39:54.214 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:39:54.219 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:39:54.220 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7248 ms
-2020/04/11 18:39:54:872 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:39:55:765 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:39:54:872 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:39:55:765 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1158,12 +1158,12 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
- > 2020/04/11 18:39:59:672 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:41:34:570 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+ > 2020/04/11 18:39:59:672 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:41:34:570 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/11 18:41:35:299 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:41:35:299 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:43:05.620 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:43:05.621 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:05.621 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:05.674 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:43:05.729 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -1221,9 +1221,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-11-Apr-2020 18:43:05.752 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:05.752 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:05.754 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:43:05.755 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:05.755 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:05.756 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Forcing shutdown
 11-Apr-2020 18:43:20.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
@@ -1252,7 +1252,7 @@ Forcing shutdown
 11-Apr-2020 18:43:20.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:43:20.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:43:20.109 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:43:20.186 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:20.186 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:20.203 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:43:20.209 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:43:20.210 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1267,11 +1267,11 @@ Forcing shutdown
 11-Apr-2020 18:43:26.565 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:43:27.309 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:43:27.311 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [746] ms
-11-Apr-2020 18:43:27.313 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:43:27.313 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:43:27.318 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:43:27.319 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7108 ms
-2020/04/11 18:43:27:803 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
-2020/04/11 18:43:28:748 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:43:27:803 : http-nio-$PORT-exec-2 : for headless unix environments ensure xvfb is running
+2020/04/11 18:43:28:748 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1283,9 +1283,9 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
- > 2020/04/11 18:43:32:544 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 18:43:32:544 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:54:03.333 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:54:03.334 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:03.334 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:03.391 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:54:03.445 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -1312,9 +1312,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:54:03.467 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:03.467 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:03.469 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:54:03.471 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:03.471 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:03.471 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:54:04.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:54:04.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1342,7 +1342,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:54:04.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:54:04.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:54:04.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:54:04.645 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:04.645 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:04.666 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:54:04.672 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:54:04.674 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1358,11 +1358,11 @@ Forcing shutdown
 11-Apr-2020 18:54:11.292 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:54:12.007 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:54:12.009 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [717] ms
-11-Apr-2020 18:54:12.012 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:54:12.012 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:54:12.017 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:54:12.018 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7344 ms
-2020/04/11 18:54:24:032 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/11 18:54:24:953 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:54:24:032 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/11 18:54:24:953 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1412,9 +1412,9 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 
 username: Invalid login.
- > 2020/04/11 18:54:28:973 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 18:54:28:973 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 18:56:43.823 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 18:56:43.824 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:43.824 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:43.880 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:56:43.936 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -1441,9 +1441,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 18:56:43.958 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:43.958 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:43.960 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 18:56:43.969 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:43.969 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:43.969 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:56:45.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 18:56:45.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1471,7 +1471,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 18:56:45.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
 11-Apr-2020 18:56:45.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
 11-Apr-2020 18:56:45.315 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 18:56:45.400 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:45.400 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:45.419 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 18:56:45.427 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:56:45.429 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1487,11 +1487,11 @@ Forcing shutdown
 11-Apr-2020 18:56:51.991 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 18:56:52.776 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 18:56:52.778 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [787] ms
-11-Apr-2020 18:56:52.781 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 18:56:52.781 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 18:56:52.786 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 18:56:52.787 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7357 ms
-2020/04/11 18:56:54:116 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
-2020/04/11 18:56:55:200 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:56:54:116 : http-nio-$PORT-exec-2 : for headless unix environments ensure xvfb is running
+2020/04/11 18:56:55:200 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1503,9 +1503,9 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
- > 2020/04/11 18:56:58:841 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 18:56:58:841 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 19:02:10.157 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 19:02:10.157 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:02:10.157 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:02:10.213 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:02:10.270 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -1532,9 +1532,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-11-Apr-2020 19:02:10.295 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:02:10.295 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:02:10.298 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 19:02:10.299 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:02:10.299 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:02:10.300 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Forcing shutdown
 11-Apr-2020 19:03:56.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
@@ -1563,7 +1563,7 @@ Forcing shutdown
 11-Apr-2020 19:03:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 11-Apr-2020 19:03:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 11-Apr-2020 19:03:56.812 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 19:03:56.908 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:03:56.908 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:03:56.927 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 19:03:56.933 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:03:56.934 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1578,11 +1578,11 @@ Forcing shutdown
 11-Apr-2020 19:04:03.349 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 19:04:04.015 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 19:04:04.017 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [668] ms
-11-Apr-2020 19:04:04.019 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:04:04.019 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:04:04.025 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:04:04.027 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7091 ms
-2020/04/11 19:04:19:557 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/11 19:04:20:596 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 19:04:19:557 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/11 19:04:20:596 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1594,9 +1594,9 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
- > 2020/04/11 19:04:24:230 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/11 19:04:24:230 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 11-Apr-2020 19:04:57.380 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 19:04:57.380 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:04:57.380 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:04:57.432 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:04:57.484 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -1607,9 +1607,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 19:04:57.501 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Thread.sleep(Native Method)
  com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
-11-Apr-2020 19:04:57.503 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:04:57.503 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:04:57.505 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 19:04:57.506 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:04:57.506 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:04:57.506 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Forcing shutdown
 11-Apr-2020 19:06:02.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
@@ -1638,7 +1638,7 @@ Forcing shutdown
 11-Apr-2020 19:06:02.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 11-Apr-2020 19:06:02.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 11-Apr-2020 19:06:02.288 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 19:06:02.381 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:06:02.381 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:06:02.399 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 19:06:02.406 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:06:02.407 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1653,11 +1653,11 @@ Forcing shutdown
 11-Apr-2020 19:06:08.852 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 19:06:09.631 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 19:06:09.633 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [781] ms
-11-Apr-2020 19:06:09.635 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 19:06:09.635 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 19:06:09.639 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 19:06:09.640 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7232 ms
-2020/04/11 19:06:13:376 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 19:06:14:422 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 19:06:13:376 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 19:06:14:422 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1669,7 +1669,7 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
-2020/04/11 19:06:18:049 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 19:06:18:049 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 20:26:57:771 : Thread-6 : [com.creamtec.ajaxswing.core.ClientAgentFactory$1] Exception while warming up client agent for applicaton mafiaweb (Exception java.rmi.ConnectException, Connection refused to host: 192.168.0.106; nested exception is: 
 	java.net.ConnectException: Connection refused (Connection refused))
 2020/04/11 20:26:57:773 : [com.creamtec.ajaxswing.core.ClientAgentFactory$1] Exception while warming up client agent for applicaton mafiaweb
@@ -1765,7 +1765,7 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:617)
 	... 5 more
 11-Apr-2020 20:58:08.265 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-11-Apr-2020 20:58:08.267 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:08.267 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:08.320 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 20:58:08.375 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -1779,9 +1779,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 20:58:08.727 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Thread.sleep(Native Method)
  com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
-11-Apr-2020 20:58:08.729 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:08.729 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:08.731 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 20:58:08.732 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:08.732 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:08.733 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 20:58:08.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 11-Apr-2020 20:58:08.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1809,7 +1809,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 20:58:08.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 11-Apr-2020 20:58:08.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 11-Apr-2020 20:58:08.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-11-Apr-2020 20:58:08.958 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:08.958 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:08.974 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 11-Apr-2020 20:58:08.981 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 20:58:08.982 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1824,11 +1824,11 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 20:58:15.431 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 11-Apr-2020 20:58:16.121 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 11-Apr-2020 20:58:16.124 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [692] ms
-11-Apr-2020 20:58:16.126 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 20:58:16.126 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 20:58:16.131 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 20:58:16.132 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7149 ms
-2020/04/11 20:58:23:773 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/11 20:58:24:877 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 20:58:23:773 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/11 20:58:24:877 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1840,8 +1840,8 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
-2020/04/11 20:58:28:727 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 21:00:52:674 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 20:58:28:727 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 21:00:52:674 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1854,7 +1854,7 @@ Using Java 1.8.0_241
 
 username: Error in login attempt
 2020/04/11 21:00:52:706 : Thread-13 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.lang.IllegalThreadStateException)
-2020/04/11 21:00:52:706 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed with exception (Exception java.lang.IllegalThreadStateException)
+2020/04/11 21:00:52:706 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed with exception (Exception java.lang.IllegalThreadStateException)
 2020/04/11 21:00:52:706 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed with exception
 java.lang.IllegalThreadStateException
 	at java.lang.Thread.start(Thread.java:708)
@@ -1888,7 +1888,7 @@ java.lang.IllegalThreadStateException
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
-11-Apr-2020 21:57:52.412 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 21:57:52.412 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 21:57:52.482 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 11-Apr-2020 21:57:52.537 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -1902,9 +1902,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 11-Apr-2020 21:57:52.619 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Thread.sleep(Native Method)
  com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
-11-Apr-2020 21:57:52.624 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 21:57:52.624 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 21:57:52.626 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-11-Apr-2020 21:57:52.660 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+11-Apr-2020 21:57:52.660 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 11-Apr-2020 21:57:52.661 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 11:44:31.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 13-Apr-2020 11:44:31.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -1932,7 +1932,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 13-Apr-2020 11:44:31.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 11:44:31.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 11:44:31.318 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 11:44:31.488 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 11:44:31.488 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 11:44:31.516 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 11:44:31.524 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 11:44:31.525 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -1947,14 +1947,14 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 13-Apr-2020 11:44:33.652 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 11:44:34.713 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 11:44:34.715 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [1,063] ms
-13-Apr-2020 11:44:34.716 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 11:44:34.716 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 11:44:34.722 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 11:44:34.723 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3197 ms
-2020/04/13 11:47:23:258 : http-nio-8040-exec-6 : for headless unix environments ensure xvfb is running
-2020/04/13 11:47:24:447 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 11:47:23:258 : http-nio-$PORT-exec-6 : for headless unix environments ensure xvfb is running
+2020/04/13 11:47:24:447 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/13 11:47:27:205 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 11:47:28:603 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 11:47:27:205 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 11:47:28:603 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -1966,9 +1966,9 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
-2020/04/13 11:47:30:623 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 11:47:30:623 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 13-Apr-2020 11:48:22.418 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-13-Apr-2020 11:48:22.419 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 11:48:22.419 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 11:48:22.475 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 11:48:22.531 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -2007,9 +2007,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-13-Apr-2020 11:48:22.549 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 11:48:22.549 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 11:48:22.550 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 11:48:22.551 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 11:48:22.551 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 11:48:22.552 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 11:48:26.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
 13-Apr-2020 11:48:26.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
@@ -2037,7 +2037,7 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 13-Apr-2020 11:48:26.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 11:48:26.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 11:48:26.808 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 11:48:26.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 11:48:26.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 11:48:26.921 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 11:48:26.928 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 11:48:26.930 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -2053,11 +2053,11 @@ Forcing shutdown
 13-Apr-2020 11:48:28.622 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 11:48:29.615 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 11:48:29.617 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [995] ms
-13-Apr-2020 11:48:29.619 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 11:48:29.619 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 11:48:29.624 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 11:48:29.625 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2694 ms
-2020/04/13 11:48:32:926 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/13 11:48:34:005 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 11:48:32:926 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/13 11:48:34:005 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2067,7 +2067,7 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 11:48:38:027 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 11:48:38:027 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 Exception in thread "AWT-EventQueue-0" java.lang.reflect.UndeclaredThrowableException
 	at com.sun.proxy.$Proxy5.handleQuit(Unknown Source)
 	at com.apple.eawt._AppEventLegacyHandler$7.dispatchEvent(_AppEventLegacyHandler.java:162)
@@ -2105,10 +2105,10 @@ Caused by: java.security.AccessControlException:
 	at java.lang.System.exit(System.java:971)
 	at net.sourceforge.kolmafia.KoLmafia.quit(KoLmafia.java:2237)
 	... 27 more
-2020/04/13 12:26:59:787 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:26:59:787 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/13 12:27:00:547 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:27:02:130 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:27:00:547 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:27:02:130 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2118,9 +2118,9 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 12:27:02:262 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:27:02:262 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 13-Apr-2020 12:29:50.665 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-13-Apr-2020 12:29:50.665 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:29:50.665 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:29:50.718 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:29:50.773 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -2170,9 +2170,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-13-Apr-2020 12:29:50.793 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:29:50.793 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:29:50.794 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 12:29:50.795 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:29:50.795 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:29:50.796 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Handler error
 java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
@@ -2226,7 +2226,7 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:29:51.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 12:29:51.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 12:29:51.922 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 12:29:52.024 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:29:52.024 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:29:52.041 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 12:29:52.048 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:29:52.050 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -2241,12 +2241,12 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:29:53.881 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 12:29:54.978 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 12:29:54.980 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [1,099] ms
-13-Apr-2020 12:29:54.982 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:29:54.982 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:29:54.988 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:29:54.989 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2939 ms
 Forcing shutdown
-2020/04/13 12:29:57:705 : http-nio-8040-exec-5 : for headless unix environments ensure xvfb is running
-2020/04/13 12:29:58:583 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:29:57:705 : http-nio-$PORT-exec-5 : for headless unix environments ensure xvfb is running
+2020/04/13 12:29:58:583 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2258,9 +2258,9 @@ Using Java 1.8.0_241
 
 
 username: Invalid login.
- > 2020/04/13 12:30:02:381 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+ > 2020/04/13 12:30:02:381 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 13-Apr-2020 12:31:10.017 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-13-Apr-2020 12:31:10.017 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:31:10.017 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:31:10.073 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:31:10.126 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -2271,9 +2271,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
 13-Apr-2020 12:31:10.147 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.lang.Thread.sleep(Native Method)
  com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
-13-Apr-2020 12:31:10.151 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:31:10.151 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:31:10.153 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 12:31:10.153 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:31:10.153 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:31:10.154 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Handler error
 java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
@@ -2327,7 +2327,7 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:31:11.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 12:31:11.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 12:31:11.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 12:31:11.162 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:31:11.162 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:31:11.177 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 12:31:11.185 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:31:11.186 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -2342,12 +2342,12 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:31:12.676 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 12:31:13.736 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 12:31:13.738 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [1,062] ms
-13-Apr-2020 12:31:13.739 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:31:13.739 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:31:13.744 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:31:13.745 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2559 ms
 Forcing shutdown
-2020/04/13 12:31:15:901 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/13 12:31:17:096 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:31:15:901 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/13 12:31:17:096 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2357,11 +2357,11 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 12:31:21:243 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:35:51:988 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:31:21:243 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:35:51:988 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/13 12:35:52:456 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:35:54:981 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:35:52:456 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:35:54:981 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2371,8 +2371,8 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 12:35:55:103 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:36:09:962 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:35:55:103 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:36:09:962 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2383,7 +2383,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:09:966 : Thread-16 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:13:458 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:13:458 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2394,7 +2394,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:13:461 : Thread-18 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:13:572 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:13:572 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2405,7 +2405,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:13:574 : Thread-20 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:20:529 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:20:529 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2416,7 +2416,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:20:532 : Thread-22 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:32:143 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:32:143 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2427,7 +2427,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:32:145 : Thread-24 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:34:840 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:34:840 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2438,7 +2438,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:34:843 : Thread-26 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:38:197 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:38:197 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2449,7 +2449,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:38:199 : Thread-28 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:42:727 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:42:727 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2460,7 +2460,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:42:729 : Thread-30 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:44:933 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:44:933 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2471,7 +2471,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:44:936 : Thread-32 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:46:429 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:46:429 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2482,7 +2482,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:46:431 : Thread-34 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:49:239 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:49:239 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2493,7 +2493,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:49:241 : Thread-36 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:49:480 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:49:480 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2504,7 +2504,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:49:482 : Thread-38 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:50:361 : http-nio-8040-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:50:361 : http-nio-$PORT-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2515,7 +2515,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:50:364 : Thread-40 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:51:392 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:51:392 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2526,7 +2526,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:51:394 : Thread-42 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:51:900 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:51:900 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2537,7 +2537,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:51:902 : Thread-44 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:54:508 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:54:508 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2548,7 +2548,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:54:511 : Thread-46 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:54:689 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:54:689 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2559,7 +2559,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:54:691 : Thread-48 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:59:717 : http-nio-8040-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:59:717 : http-nio-$PORT-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2570,7 +2570,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:36:59:719 : Thread-50 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:01:450 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:01:450 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2581,7 +2581,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:37:01:452 : Thread-52 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:02:031 : http-nio-8040-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:02:031 : http-nio-$PORT-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2592,7 +2592,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:37:02:032 : Thread-54 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:02:749 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:02:749 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2603,7 +2603,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:37:02:751 : Thread-56 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:06:911 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:06:911 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2614,7 +2614,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:37:06:914 : Thread-58 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:08:704 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:08:704 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2625,7 +2625,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:37:08:705 : Thread-60 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:11:365 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:11:365 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2636,10 +2636,10 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:37:11:366 : Thread-62 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:55:149 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:55:149 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/13 12:37:55:473 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:38:12:237 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:55:473 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:38:12:237 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2650,7 +2650,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:38:12:241 : Thread-65 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:38:14:590 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:38:14:590 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2661,10 +2661,10 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:38:14:592 : Thread-67 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:41:20:542 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:41:20:542 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/13 12:41:20:762 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:41:22:980 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:41:20:762 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:41:22:980 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2675,7 +2675,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:41:22:983 : Thread-71 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:41:51:827 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:41:51:827 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2686,7 +2686,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:41:51:834 : Thread-73 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:41:52:735 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:41:52:735 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2698,7 +2698,7 @@ Using Java 1.8.0_241
 
 2020/04/13 12:41:52:737 : Thread-75 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
 13-Apr-2020 12:45:34.178 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-13-Apr-2020 12:45:34.179 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:45:34.179 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:45:34.231 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:45:34.287 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -2790,9 +2790,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-13-Apr-2020 12:45:34.305 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:45:34.305 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:45:34.306 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 12:45:34.311 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:45:34.311 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:45:34.312 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Handler error
 java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
@@ -2846,7 +2846,7 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:45:35.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 12:45:35.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 12:45:35.332 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 12:45:35.432 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:45:35.432 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:45:35.447 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 12:45:35.454 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:45:35.456 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -2861,12 +2861,12 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:45:37.357 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 12:45:38.389 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 12:45:38.391 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [1,034] ms
-13-Apr-2020 12:45:38.393 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:45:38.393 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:45:38.398 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:45:38.399 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2942 ms
 Forcing shutdown
-2020/04/13 12:45:48:300 : http-nio-8040-exec-5 : for headless unix environments ensure xvfb is running
-2020/04/13 12:45:49:815 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:45:48:300 : http-nio-$PORT-exec-5 : for headless unix environments ensure xvfb is running
+2020/04/13 12:45:49:815 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2876,8 +2876,8 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 12:45:53:672 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:46:31:324 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:45:53:672 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:46:31:324 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2887,8 +2887,8 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 12:46:31:437 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:46:38:345 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:46:31:437 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:46:38:345 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2899,7 +2899,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:46:38:347 : Thread-13 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:46:39:864 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:46:39:864 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2910,10 +2910,10 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:46:39:867 : Thread-15 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:46:54:464 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:46:54:464 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/13 12:46:55:137 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:46:59:657 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:46:55:137 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:46:59:657 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2924,7 +2924,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:46:59:660 : Thread-19 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:47:00:441 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:47:00:441 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2935,10 +2935,10 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:47:00:443 : Thread-21 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:47:13:547 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:47:13:547 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/13 12:47:13:919 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:47:16:297 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:47:13:919 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:47:16:297 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2949,7 +2949,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:47:16:299 : Thread-24 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:47:18:680 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:47:18:680 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2960,7 +2960,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:47:18:684 : Thread-26 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:21:763 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:21:763 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2971,7 +2971,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:21:767 : Thread-28 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:23:855 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:23:855 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2982,7 +2982,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:23:857 : Thread-30 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:27:079 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:27:079 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -2993,7 +2993,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:27:081 : Thread-32 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:30:760 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:30:760 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3004,7 +3004,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:30:762 : Thread-34 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:41:711 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:41:711 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3015,7 +3015,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:41:714 : Thread-36 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:41:748 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:41:748 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3026,7 +3026,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:41:750 : Thread-38 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:46:221 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:46:221 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3037,7 +3037,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:46:223 : Thread-40 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:47:566 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:47:566 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3048,7 +3048,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:47:569 : Thread-42 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:55:879 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:55:879 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3059,7 +3059,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:55:882 : Thread-44 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:58:895 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:58:895 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3070,7 +3070,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:48:58:898 : Thread-46 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:49:29:313 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:49:29:313 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3081,7 +3081,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:49:29:316 : Thread-48 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:50:15:785 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:50:15:785 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3093,7 +3093,7 @@ Using Java 1.8.0_241
 
 2020/04/13 12:50:15:790 : Thread-50 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
 13-Apr-2020 12:50:29.799 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-13-Apr-2020 12:50:29.799 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:50:29.799 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:50:29.852 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:50:29.907 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -3160,9 +3160,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-13-Apr-2020 12:50:29.927 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:50:29.927 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:50:29.929 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 12:50:29.933 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:50:29.933 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:50:29.935 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Handler error
 java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
@@ -3216,7 +3216,7 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:50:31.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 12:50:31.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 12:50:31.815 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 12:50:31.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:50:31.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:50:31.919 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 12:50:31.925 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:50:31.927 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -3231,12 +3231,12 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:50:33.704 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 12:50:34.683 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 12:50:34.688 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [984] ms
-13-Apr-2020 12:50:34.690 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:50:34.690 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:50:34.696 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:50:34.698 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2770 ms
 Forcing shutdown
-2020/04/13 12:50:40:148 : http-nio-8040-exec-5 : for headless unix environments ensure xvfb is running
-2020/04/13 12:50:41:372 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:50:40:148 : http-nio-$PORT-exec-5 : for headless unix environments ensure xvfb is running
+2020/04/13 12:50:41:372 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3246,7 +3246,7 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 12:50:45:341 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:50:45:341 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 Exception in thread "AWT-EventQueue-0" java.lang.reflect.UndeclaredThrowableException
 	at com.sun.proxy.$Proxy5.handleQuit(Unknown Source)
 	at com.apple.eawt._AppEventLegacyHandler$7.dispatchEvent(_AppEventLegacyHandler.java:162)
@@ -3284,7 +3284,7 @@ Caused by: java.security.AccessControlException:
 	at java.lang.System.exit(System.java:971)
 	at net.sourceforge.kolmafia.KoLmafia.quit(KoLmafia.java:2237)
 	... 27 more
-13-Apr-2020 12:51:01.203 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:51:01.203 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:51:01.260 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:51:01.314 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -3306,9 +3306,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-13-Apr-2020 12:51:01.333 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:51:01.333 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:51:01.335 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 12:51:01.336 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:51:01.336 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:51:01.336 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Handler error
 java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
@@ -3362,7 +3362,7 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:51:49.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 12:51:49.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 12:51:49.337 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 12:51:49.418 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:51:49.418 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:51:49.435 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 12:51:49.441 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:51:49.442 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -3377,11 +3377,11 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 12:51:50.971 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 12:51:51.964 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 12:51:51.966 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [995] ms
-13-Apr-2020 12:51:51.967 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:51:51.967 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:51:51.972 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:51:51.973 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2530 ms
-2020/04/13 12:52:14:926 : http-nio-8040-exec-5 : for headless unix environments ensure xvfb is running
-2020/04/13 12:52:16:926 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:52:14:926 : http-nio-$PORT-exec-5 : for headless unix environments ensure xvfb is running
+2020/04/13 12:52:16:926 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3391,8 +3391,8 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 12:52:21:016 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:52:44:145 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:52:21:016 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:52:44:145 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3402,8 +3402,8 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 12:52:44:155 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:52:54:592 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:52:44:155 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:52:54:592 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3414,7 +3414,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:52:54:596 : Thread-12 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:52:57:201 : http-nio-8040-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:52:57:201 : http-nio-$PORT-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3425,7 +3425,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:52:57:204 : Thread-14 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:54:31:132 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:54:31:132 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3436,7 +3436,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:54:31:146 : Thread-16 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:56:41:296 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:56:41:296 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3447,7 +3447,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:56:41:300 : Thread-18 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:56:45:725 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:56:45:725 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3458,7 +3458,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:56:45:728 : Thread-20 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:56:45:899 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:56:45:899 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3469,7 +3469,7 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:56:45:902 : Thread-22 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:56:47:757 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:56:47:757 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3518,7 +3518,7 @@ Caused by: java.security.AccessControlException:
 	at net.sourceforge.kolmafia.KoLmafia.quit(KoLmafia.java:2237)
 	... 27 more
 13-Apr-2020 12:58:36.318 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-13-Apr-2020 12:58:36.318 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.318 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:58:36.374 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:58:36.430 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -3540,9 +3540,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
  java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
  java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-13-Apr-2020 12:58:36.447 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.447 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:58:36.448 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 12:58:36.449 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.449 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 12:58:36.450 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Forcing shutdown
 Handler error
@@ -3597,7 +3597,7 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 13:22:27.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 13:22:27.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 13:22:27.175 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 13:22:27.348 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:22:27.348 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:22:27.375 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 13:22:27.383 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 13:22:27.384 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -3612,12 +3612,12 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 13:22:29.412 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 13:22:30.406 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 13:22:30.409 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [997] ms
-13-Apr-2020 13:22:30.412 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:22:30.412 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:22:30.419 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 13:22:30.420 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3035 ms
-2020/04/13 13:22:39:015 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/13 13:22:40:246 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 13:22:41:047 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:22:39:015 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/13 13:22:40:246 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:22:41:047 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 EventQueue initialized 
 
@@ -3628,8 +3628,8 @@ Currently Running on Mac OS X
 Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
-2020/04/13 13:22:43:148 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 13:22:45:339 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:22:43:148 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:22:45:339 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 Exception in thread "AWT-EventQueue-0" java.lang.reflect.UndeclaredThrowableException
 	at com.sun.proxy.$Proxy5.handleQuit(Unknown Source)
 	at com.apple.eawt._AppEventLegacyHandler$7.dispatchEvent(_AppEventLegacyHandler.java:162)
@@ -3667,7 +3667,7 @@ Caused by: java.security.AccessControlException:
 	at java.lang.System.exit(System.java:971)
 	at net.sourceforge.kolmafia.KoLmafia.quit(KoLmafia.java:2237)
 	... 27 more
-13-Apr-2020 13:23:06.297 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:23:06.297 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:23:06.355 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 13:23:06.412 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -3717,9 +3717,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-13-Apr-2020 13:23:06.432 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:23:06.432 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:23:06.434 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 13:23:06.435 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:23:06.435 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:23:06.435 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Handler error
 java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
@@ -3773,7 +3773,7 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 13:40:28.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 13:40:28.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 13:40:28.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 13:40:28.413 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:40:28.413 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:40:28.435 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 13:40:28.442 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 13:40:28.443 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -3788,13 +3788,13 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 13:40:30.533 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 13:40:31.513 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 13:40:31.515 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [982] ms
-13-Apr-2020 13:40:31.517 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:40:31.517 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:40:31.523 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 13:40:31.524 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3080 ms
-2020/04/13 13:40:40:278 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/13 13:40:41:519 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:40:40:278 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/13 13:40:41:519 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
-2020/04/13 13:40:43:699 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:40:43:699 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3805,11 +3805,11 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 Unable to invoke -host
-2020/04/13 13:40:45:976 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:40:45:976 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 
-2020/04/13 13:40:45:980 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:40:45:980 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
  > 13-Apr-2020 13:41:08.497 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-13-Apr-2020 13:41:08.497 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:41:08.497 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:41:08.551 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 13:41:08.605 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 Forced shutdown monitor activated, will shutdown in 5 seconds
@@ -3848,9 +3848,9 @@ Forced shutdown monitor activated, will shutdown in 5 seconds
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-13-Apr-2020 13:41:08.628 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:41:08.628 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:41:08.630 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-13-Apr-2020 13:41:08.631 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:41:08.631 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:41:08.631 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 Handler error
 java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
@@ -3904,7 +3904,7 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 13:41:09.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../tomcat
 13-Apr-2020 13:41:09.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../tomcat/temp
 13-Apr-2020 13:41:09.654 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-13-Apr-2020 13:41:09.757 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:41:09.757 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:41:09.772 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
 13-Apr-2020 13:41:09.778 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 13:41:09.779 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
@@ -3919,12 +3919,12 @@ java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
 13-Apr-2020 13:41:11.455 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
 13-Apr-2020 13:41:12.403 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 13-Apr-2020 13:41:12.405 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [950] ms
-13-Apr-2020 13:41:12.407 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 13:41:12.407 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-$PORT"]
 13-Apr-2020 13:41:12.411 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 13:41:12.412 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2632 ms
 Forcing shutdown
-2020/04/13 13:41:14:395 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/13 13:41:15:492 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:41:14:395 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/13 13:41:15:492 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 EventQueue initialized 
 
 KoLmafia v20.3
@@ -3936,5 +3936,5 @@ Using Java 1.8.0_241
 
 Unable to invoke -host
 
-2020/04/13 13:41:19:280 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:41:19:280 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
  > 13-Apr-2020 13:43:55.949 SEVERE [ajp-nio-8009-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]
