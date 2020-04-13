@@ -1,12 +1,12 @@
 2020/04/11 17:39:34:613 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 17:39:45:218 : http-nio-$PORT-exec-9 : for headless unix environments ensure xvfb is running
-2020/04/11 17:39:46:298 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 17:39:49:167 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 17:39:45:218 : http-nio-8040-exec-9 : for headless unix environments ensure xvfb is running
+2020/04/11 17:39:46:298 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 17:39:49:167 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:10:09:017 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:10:09:387 : http-nio-$PORT-exec-1 : for headless unix environments ensure xvfb is running
-2020/04/11 18:10:09:888 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:10:13:693 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:17:42:666 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper] Failed to process a request for session = org.apache.catalina.session.StandardSessionFacade@345453a2 (Exception com.creamtec.ajaxswing.core.AjaxSwingException, Failed to find application properties file for app kolmafia-20.3)
+2020/04/11 18:10:09:387 : http-nio-8040-exec-1 : for headless unix environments ensure xvfb is running
+2020/04/11 18:10:09:888 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:10:13:693 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:17:42:666 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper] Failed to process a request for session = org.apache.catalina.session.StandardSessionFacade@345453a2 (Exception com.creamtec.ajaxswing.core.AjaxSwingException, Failed to find application properties file for app kolmafia-20.3)
 com.creamtec.ajaxswing.core.AjaxSwingException: Failed to find application properties file for app kolmafia-20.3
 	at com.creamtec.ajaxswing.core.AjaxSwingPropertiesManager.getAppProperties(AjaxSwingPropertiesManager.java:203)
 	at com.creamtec.ajaxswing.servlet.AppDesc.<init>(AppDesc.java:33)
@@ -42,8 +42,8 @@ com.creamtec.ajaxswing.core.AjaxSwingException: Failed to find application prope
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 2020/04/11 18:20:50:282 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:20:57:670 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/11 18:20:58:783 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:20:57:670 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/11 18:20:58:783 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:21:00:873 : Thread-9 : WARN: Failed to set look and feel or look and feel change not allowed by AjaxSwing (Exception java.lang.RuntimeException, Changing look and feel not allowed, use agent.allowLFChange=true)
 java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowLFChange=true
 	at com.creamtec.ajaxswing.laf.AjaxSwingLookAndFeel.uninitialize(AjaxSwingLookAndFeel.java:66)
@@ -63,10 +63,10 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
-2020/04/11 18:21:02:437 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:21:02:437 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:21:52:627 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:21:53:783 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:21:54:669 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:21:53:783 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:21:54:669 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:21:56:764 : Thread-10 : WARN: Failed to set look and feel or look and feel change not allowed by AjaxSwing (Exception java.lang.RuntimeException, Changing look and feel not allowed, use agent.allowLFChange=true)
 java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowLFChange=true
 	at com.creamtec.ajaxswing.laf.AjaxSwingLookAndFeel.uninitialize(AjaxSwingLookAndFeel.java:66)
@@ -86,10 +86,10 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
-2020/04/11 18:21:58:378 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:21:58:378 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:25:30:450 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:25:31:511 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:25:32:407 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:25:31:511 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:25:32:407 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:25:34:508 : Thread-10 : WARN: Failed to set look and feel or look and feel change not allowed by AjaxSwing (Exception java.lang.RuntimeException, Changing look and feel not allowed, use agent.allowLFChange=true)
 java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowLFChange=true
 	at com.creamtec.ajaxswing.laf.AjaxSwingLookAndFeel.uninitialize(AjaxSwingLookAndFeel.java:66)
@@ -109,34 +109,34 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
-2020/04/11 18:25:36:172 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:25:36:172 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:33:34:659 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:33:35:763 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:33:36:615 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:33:40:273 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:33:35:763 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:33:36:615 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:33:40:273 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:35:00:492 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:35:01:639 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:35:02:507 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:35:06:425 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:35:01:639 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:35:02:507 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:35:06:425 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:38:14:943 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:38:19:911 : http-nio-$PORT-exec-2 : for headless unix environments ensure xvfb is running
-2020/04/11 18:38:21:003 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:38:24:817 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:38:56:942 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:38:57:678 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:38:19:911 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
+2020/04/11 18:38:21:003 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:38:24:817 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:38:56:942 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:38:57:678 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:39:53:474 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:39:54:872 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 18:39:55:765 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:39:59:672 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:41:34:570 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:41:35:299 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:39:54:872 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 18:39:55:765 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:39:59:672 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:41:34:570 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:41:35:299 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:43:26:562 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:43:27:803 : http-nio-$PORT-exec-2 : for headless unix environments ensure xvfb is running
-2020/04/11 18:43:28:748 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:43:32:544 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:43:27:803 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
+2020/04/11 18:43:28:748 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:43:32:544 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:54:11:290 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:54:24:032 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/11 18:54:24:953 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:54:24:032 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/11 18:54:24:953 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:54:27:058 : Thread-9 : WARN: Failed to set look and feel or look and feel change not allowed by AjaxSwing (Exception java.lang.RuntimeException, Changing look and feel not allowed, use agent.allowLFChange=true)
 java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowLFChange=true
 	at com.creamtec.ajaxswing.laf.AjaxSwingLookAndFeel.uninitialize(AjaxSwingLookAndFeel.java:66)
@@ -156,19 +156,19 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
-2020/04/11 18:54:28:973 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:54:28:973 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:56:51:988 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 18:56:54:116 : http-nio-$PORT-exec-2 : for headless unix environments ensure xvfb is running
-2020/04/11 18:56:55:200 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 18:56:58:841 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 18:56:54:116 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
+2020/04/11 18:56:55:200 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 18:56:58:841 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 19:04:03:347 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 19:04:19:557 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/11 19:04:20:596 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 19:04:24:230 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 19:04:19:557 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/11 19:04:20:596 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 19:04:24:230 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 19:06:08:849 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 19:06:13:376 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/11 19:06:14:422 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 19:06:18:049 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 19:06:13:376 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/11 19:06:14:422 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 19:06:18:049 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 20:26:57:771 : Thread-6 : [com.creamtec.ajaxswing.core.ClientAgentFactory$1] Exception while warming up client agent for applicaton mafiaweb (Exception java.rmi.ConnectException, Connection refused to host: 192.168.0.106; nested exception is:
 	java.net.ConnectException: Connection refused (Connection refused))
 java.rmi.ConnectException: Connection refused to host: 192.168.0.106; nested exception is:
@@ -218,12 +218,12 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:617)
 	... 5 more
 2020/04/11 20:58:15:428 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/11 20:58:23:773 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/11 20:58:24:877 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/11 20:58:28:727 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 21:00:52:674 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 20:58:23:773 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/11 20:58:24:877 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/11 20:58:28:727 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/11 21:00:52:674 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 21:00:52:706 : Thread-13 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.lang.IllegalThreadStateException)
-2020/04/11 21:00:52:706 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed with exception (Exception java.lang.IllegalThreadStateException)
+2020/04/11 21:00:52:706 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed with exception (Exception java.lang.IllegalThreadStateException)
 java.lang.IllegalThreadStateException
 	at java.lang.Thread.start(Thread.java:708)
 	at net.sourceforge.kolmafia.KoLmafiaCLI.listenForCommands(KoLmafiaCLI.java:306)
@@ -241,176 +241,176 @@ java.lang.IllegalThreadStateException
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 2020/04/13 11:44:33:649 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 11:47:23:258 : http-nio-$PORT-exec-6 : for headless unix environments ensure xvfb is running
-2020/04/13 11:47:24:447 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 11:47:27:205 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 11:47:28:603 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 11:47:30:623 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 11:47:23:258 : http-nio-8040-exec-6 : for headless unix environments ensure xvfb is running
+2020/04/13 11:47:24:447 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 11:47:27:205 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 11:47:28:603 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 11:47:30:623 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/13 11:48:28:620 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 11:48:32:926 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/13 11:48:34:005 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 11:48:38:027 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:26:59:787 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:27:00:547 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:27:02:130 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:27:02:262 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 11:48:32:926 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/13 11:48:34:005 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 11:48:38:027 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:26:59:787 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:27:00:547 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:27:02:130 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:27:02:262 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/13 12:29:53:879 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 12:29:57:705 : http-nio-$PORT-exec-5 : for headless unix environments ensure xvfb is running
-2020/04/13 12:29:58:583 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:30:02:381 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:29:57:705 : http-nio-8040-exec-5 : for headless unix environments ensure xvfb is running
+2020/04/13 12:29:58:583 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:30:02:381 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/13 12:31:12:672 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 12:31:15:901 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/13 12:31:17:096 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:31:21:243 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:35:51:988 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:35:52:456 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:35:54:981 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:35:55:103 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:36:09:962 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:31:15:901 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/13 12:31:17:096 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:31:21:243 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:35:51:988 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:35:52:456 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:35:54:981 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:35:55:103 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:36:09:962 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:09:966 : Thread-16 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:13:458 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:13:458 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:13:461 : Thread-18 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:13:572 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:13:572 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:13:574 : Thread-20 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:20:529 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:20:529 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:20:532 : Thread-22 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:32:143 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:32:143 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:32:145 : Thread-24 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:34:840 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:34:840 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:34:843 : Thread-26 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:38:197 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:38:197 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:38:199 : Thread-28 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:42:727 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:42:727 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:42:729 : Thread-30 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:44:933 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:44:933 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:44:936 : Thread-32 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:46:429 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:46:429 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:46:431 : Thread-34 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:49:239 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:49:239 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:49:241 : Thread-36 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:49:480 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:49:480 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:49:482 : Thread-38 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:50:361 : http-nio-$PORT-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:50:361 : http-nio-8040-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:50:364 : Thread-40 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:51:392 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:51:392 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:51:394 : Thread-42 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:51:900 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:51:900 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:51:902 : Thread-44 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:54:508 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:54:508 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:54:511 : Thread-46 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:54:689 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:54:689 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:54:691 : Thread-48 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:36:59:717 : http-nio-$PORT-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:36:59:717 : http-nio-8040-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:36:59:719 : Thread-50 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:01:450 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:01:450 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:37:01:452 : Thread-52 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:02:031 : http-nio-$PORT-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:02:031 : http-nio-8040-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:37:02:032 : Thread-54 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:02:749 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:02:749 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:37:02:751 : Thread-56 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:06:911 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:06:911 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:37:06:914 : Thread-58 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:08:704 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:08:704 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:37:08:705 : Thread-60 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:11:365 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:11:365 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:37:11:366 : Thread-62 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:37:55:149 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:37:55:473 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:38:12:237 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:55:149 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:37:55:473 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:38:12:237 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:38:12:241 : Thread-65 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:38:14:590 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:38:14:590 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:38:14:592 : Thread-67 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:41:20:542 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:41:20:762 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:41:22:980 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:41:20:542 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:41:20:762 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:41:22:980 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:41:22:983 : Thread-71 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:41:51:827 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:41:51:827 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:41:51:834 : Thread-73 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:41:52:735 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:41:52:735 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:41:52:737 : Thread-75 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
 2020/04/13 12:45:37:354 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 12:45:48:300 : http-nio-$PORT-exec-5 : for headless unix environments ensure xvfb is running
-2020/04/13 12:45:49:815 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:45:53:672 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:46:31:324 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:46:31:437 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:46:38:345 : http-nio-$PORT-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:45:48:300 : http-nio-8040-exec-5 : for headless unix environments ensure xvfb is running
+2020/04/13 12:45:49:815 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:45:53:672 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:46:31:324 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:46:31:437 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:46:38:345 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:46:38:347 : Thread-13 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:46:39:864 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:46:39:864 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:46:39:867 : Thread-15 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:46:54:464 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:46:55:137 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:46:59:657 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:46:54:464 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:46:55:137 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:46:59:657 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:46:59:660 : Thread-19 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:47:00:441 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:47:00:441 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:47:00:443 : Thread-21 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:47:13:547 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:47:13:919 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:47:16:297 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:47:13:547 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:47:13:919 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:47:16:297 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:47:16:299 : Thread-24 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:47:18:680 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:47:18:680 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:47:18:684 : Thread-26 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:21:763 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:21:763 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:21:767 : Thread-28 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:23:855 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:23:855 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:23:857 : Thread-30 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:27:079 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:27:079 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:27:081 : Thread-32 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:30:760 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:30:760 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:30:762 : Thread-34 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:41:711 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:41:711 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:41:714 : Thread-36 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:41:748 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:41:748 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:41:750 : Thread-38 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:46:221 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:46:221 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:46:223 : Thread-40 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:47:566 : http-nio-$PORT-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:47:566 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:47:569 : Thread-42 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:55:879 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:55:879 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:55:882 : Thread-44 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:48:58:895 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:48:58:895 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:48:58:898 : Thread-46 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:49:29:313 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:49:29:313 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:49:29:316 : Thread-48 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:50:15:785 : http-nio-$PORT-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:50:15:785 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:50:15:790 : Thread-50 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
 2020/04/13 12:50:33:702 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 12:50:40:148 : http-nio-$PORT-exec-5 : for headless unix environments ensure xvfb is running
-2020/04/13 12:50:41:372 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:50:45:341 : http-nio-$PORT-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:50:40:148 : http-nio-8040-exec-5 : for headless unix environments ensure xvfb is running
+2020/04/13 12:50:41:372 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:50:45:341 : http-nio-8040-exec-6 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/13 12:51:50:967 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 12:52:14:926 : http-nio-$PORT-exec-5 : for headless unix environments ensure xvfb is running
-2020/04/13 12:52:16:926 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:52:21:016 : http-nio-$PORT-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:52:44:145 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 12:52:44:155 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 12:52:54:592 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:52:14:926 : http-nio-8040-exec-5 : for headless unix environments ensure xvfb is running
+2020/04/13 12:52:16:926 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:52:21:016 : http-nio-8040-exec-7 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:52:44:145 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:52:44:155 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 12:52:54:592 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:52:54:596 : Thread-12 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:52:57:201 : http-nio-$PORT-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:52:57:201 : http-nio-8040-exec-9 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:52:57:204 : Thread-14 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:54:31:132 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:54:31:132 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:54:31:146 : Thread-16 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:56:41:296 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:56:41:296 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:56:41:300 : Thread-18 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:56:45:725 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:56:45:725 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:56:45:728 : Thread-20 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:56:45:899 : http-nio-$PORT-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:56:45:899 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:56:45:902 : Thread-22 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
-2020/04/13 12:56:47:757 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 12:56:47:757 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:56:47:760 : Thread-24 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
 2020/04/13 13:22:29:409 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 13:22:39:015 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/13 13:22:40:246 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 13:22:41:047 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 13:22:43:148 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 13:22:45:339 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:22:39:015 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/13 13:22:40:246 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:22:41:047 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:22:43:148 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:22:45:339 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/13 13:40:30:531 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 13:40:40:278 : http-nio-$PORT-exec-4 : for headless unix environments ensure xvfb is running
-2020/04/13 13:40:41:519 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 13:40:43:699 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 13:40:45:976 : http-nio-$PORT-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 13:40:45:980 : http-nio-$PORT-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:40:40:278 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/13 13:40:41:519 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:40:43:699 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:40:45:976 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:40:45:980 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/13 13:41:11:452 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
-2020/04/13 13:41:14:395 : http-nio-$PORT-exec-3 : for headless unix environments ensure xvfb is running
-2020/04/13 13:41:15:492 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
-2020/04/13 13:41:19:280 : http-nio-$PORT-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:41:14:395 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/13 13:41:15:492 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:41:19:280 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete

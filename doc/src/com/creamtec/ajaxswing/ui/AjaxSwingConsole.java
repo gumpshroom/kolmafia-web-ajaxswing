@@ -427,7 +427,7 @@ public class AjaxSwingConsole
 
 
     void btnPreview_actionPerformed (ActionEvent e) {
-        viewApp("http://0.0.0.0:$PORT/ajaxswing/apps/SwingSet2");
+        viewApp("http://0.0.0.0:8040/ajaxswing/apps/SwingSet2");
     }
 
 
@@ -540,7 +540,7 @@ public class AjaxSwingConsole
     ActionListener viewAppListener = new ActionListener() {
 
         public void actionPerformed (ActionEvent e) {
-            viewApp("http://0.0.0.0:$PORT/ajaxswing/apps/" + e.getActionCommand());
+            viewApp("http://0.0.0.0:8040/ajaxswing/apps/" + e.getActionCommand());
         }
 
     };
