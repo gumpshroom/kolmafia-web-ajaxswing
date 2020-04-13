@@ -22,14 +22,14 @@ PRGDIR=`dirname "$PRG"`
 [ -z "$AJAXSWING_HOME" ] && AJAXSWING_HOME=`cd "$PRGDIR/.." ; pwd`
 
 echo Using AJAXSWING_HOME=$AJAXSWING_HOME
- 
+
 case "$1" in
     start)
         echo ""
 
         # Uncomment the following lines to run X Virtual Frame Buffer that provides simulated graphics environment
-        #echo "Running Xvfb"
-        #exec Xvfb :1 &
+        echo "Running Xvfb"
+        exec Xvfb :1 &
         echo "Running ajaxSwing"
         exec $AJAXSWING_HOME/bin/startServer.sh
         ;;
