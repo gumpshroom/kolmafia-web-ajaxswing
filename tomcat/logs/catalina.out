@@ -3938,3 +3938,165 @@ Unable to invoke -host
 
 2020/04/13 13:41:19:280 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
  > 13-Apr-2020 13:43:55.949 SEVERE [ajp-nio-8009-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+-Xbootclasspath/p is no longer a supported option.
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+Handler error
+java.lang.ClassNotFoundException: 0.0.0.org.apache.juli.AsyncFileHandler
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at org.apache.juli.ClassLoaderLogManager.readConfiguration(ClassLoaderLogManager.java:601)
+	at org.apache.juli.ClassLoaderLogManager.readConfiguration(ClassLoaderLogManager.java:538)
+	at org.apache.juli.ClassLoaderLogManager.readConfiguration(ClassLoaderLogManager.java:336)
+	at java.util.logging.LogManager$3.run(LogManager.java:399)
+	at java.util.logging.LogManager$3.run(LogManager.java:396)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.logging.LogManager.readPrimordialConfiguration(LogManager.java:396)
+	at java.util.logging.LogManager.access$800(LogManager.java:145)
+	at java.util.logging.LogManager$2.run(LogManager.java:345)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.logging.LogManager.ensureLogManagerInitialized(LogManager.java:338)
+	at java.util.logging.LogManager.getLogManager(LogManager.java:378)
+	at java.util.logging.Logger.demandLogger(Logger.java:448)
+	at java.util.logging.Logger.getLogger(Logger.java:502)
+	at org.apache.juli.logging.DirectJDKLog.<init>(DirectJDKLog.java:68)
+	at org.apache.juli.logging.DirectJDKLog.getInstance(DirectJDKLog.java:188)
+	at org.apache.juli.logging.LogFactory.getInstance(LogFactory.java:117)
+	at org.apache.juli.logging.LogFactory.getInstance(LogFactory.java:141)
+	at org.apache.juli.logging.LogFactory.getLog(LogFactory.java:196)
+	at org.apache.catalina.startup.Bootstrap.<clinit>(Bootstrap.java:52)
+13-Apr-2020 14:01:50.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
+13-Apr-2020 14:01:50.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
+13-Apr-2020 14:01:50.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.33.0
+13-Apr-2020 14:01:50.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+13-Apr-2020 14:01:50.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.3
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/conf/logging.properties
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xbootclasspath/p:/Users/ggar/documents/codeprojects/ajaxswing4.6.3/lib/boot/asboot.jar
+13-Apr-2020 14:01:50.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx312m
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dajaxswing.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.fonts=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/lib/fonts:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/fonts
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ggar/documents/codeprojects/ajaxswing4.6.3/tomcat/temp
+13-Apr-2020 14:01:50.468 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ggar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+13-Apr-2020 14:01:50.554 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 14:01:50.567 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8040]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8040]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+13-Apr-2020 14:01:50.568 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Apr-2020 14:01:50.569 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+13-Apr-2020 14:01:50.570 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 358 ms
+13-Apr-2020 14:01:50.588 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Apr-2020 14:01:50.588 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.33
+13-Apr-2020 14:01:50.603 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ajaxswing.war]
+13-Apr-2020 14:01:52.071 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[TraceMgr] Opening log file /Users/ggar/documents/codeprojects/ajaxswing4.6.3/logs/ajaxswing.log
+13-Apr-2020 14:01:52.354 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ajaxswing.war] has finished in [1,750] ms
+13-Apr-2020 14:01:52.355 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT]
+13-Apr-2020 14:01:53.255 INFO [0.0.0.0-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Apr-2020 14:01:53.257 INFO [0.0.0.0-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ggar/Documents/codeprojects/AjaxSwing4.6.3/tomcat/webapps/ROOT] has finished in [903] ms
+13-Apr-2020 14:01:53.259 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2689 ms
+13-Apr-2020 14:01:53.260 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+13-Apr-2020 14:01:53.261 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 14:01:53.261 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Apr-2020 14:01:53.261 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+Forced shutdown monitor activated, will shutdown in 5 seconds
+13-Apr-2020 14:01:53.265 WARNING [0.0.0.0-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ ForcedShutdownServlet.run(ForcedShutdownServlet.java:29)
+ java.lang.Thread.run(Thread.java:748)
+13-Apr-2020 14:01:53.270 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 14:01:53.270 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 14:01:53.270 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Apr-2020 14:01:53.270 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
