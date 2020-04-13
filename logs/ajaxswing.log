@@ -404,3 +404,13 @@ java.lang.IllegalThreadStateException
 2020/04/13 13:22:41:047 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 13:22:43:148 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/13 13:22:45:339 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:40:30:531 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/13 13:40:40:278 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/13 13:40:41:519 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:40:43:699 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:40:45:976 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:40:45:980 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:41:11:452 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/13 13:41:14:395 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
+2020/04/13 13:41:15:492 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:41:19:280 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete

@@ -40,6 +40,7 @@
 #                   the version command etc.
 #                   Examples are heap size, GC logging, JMX ports etc.
 #
+CATALINA_OPTS = "--host 0.0.0.0 --port $PORT"
 #   CATALINA_TMPDIR (Optional) Directory path location of temporary directory
 #                   the JVM should use (java.io.tmpdir).  Defaults to
 #                   $CATALINA_BASE/temp.
@@ -69,7 +70,7 @@
 #                   command is executed. The default is "dt_socket".
 #
 #   JPDA_ADDRESS    (Optional) Java runtime options used when the "jpda start"
-#                   command is executed. The default is 0.0.0.0:8000.
+#                   command is executed. The default is localhost:8000.
 #
 #   JPDA_SUSPEND    (Optional) Java runtime options used when the "jpda start"
 #                   command is executed. Specifies whether JVM should suspend
@@ -328,7 +329,7 @@ if [ "$1" = "jpda" ] ; then
     JPDA_TRANSPORT="dt_socket"
   fi
   if [ -z "$JPDA_ADDRESS" ]; then
-    JPDA_ADDRESS="0.0.0.0:8000"
+    JPDA_ADDRESS="localhost:8000"
   fi
   if [ -z "$JPDA_SUSPEND" ]; then
     JPDA_SUSPEND="n"
