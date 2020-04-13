@@ -1,0 +1,15 @@
+AjaxSwing would not have been possible without the following open source projects:
+
+- jQuery (http://jquery.com) - v1.10.2 - Licensed MIT - https://jquery.org/license/
+- jQuery UI (http://jqueryui.com) - v1.10.3 - Licensed MIT - https://github.com/jquery/jquery-ui/releases/tag/1.10.3 (In sources ZIP MIT-LICENSE.txt)
+- TinyMCE (https://www.tinymce.com/) - v4.2.7 - Licensed GNU GPL 2.1 - http://download.ephox.com/tinymce/community/tinymce_4.2.7.zip (In ZIP LICENSE.txt)
+- Tomcat (https://tomcat.apache.org) - v6.0.44 - Licensed Apache 2.0
+- ASM (http://asm.objectweb.org) - v5.2 - Licensed BSD 2.0 - http://asm.ow2.org/license.html
+- Commons FileUpload (https://commons.apache.org/proper/commons-fileupload/) - v1.3.3 - Licensed Apache 2.0
+- Commons IO (https://commons.apache.org/proper/commons-io/) - v2.5 - Licensed Apache 2.0
+- Commons Lang (https://commons.apache.org/proper/commons-lang/) - v3.6 - Licensed Apache 2.0
+- FreeMarker (http://freemarker.org) - v2.3.26 - Licensed Apache 2.0
+- Jackson JSON processor (https://github.com/FasterXML/jackson-core) - 1.9.13 - Licensed Apache 2.0
+- Data mapper for Jackson JSON processor (https://github.com/codehaus/jackson) - 1.9.13 - Licensed Apache 2.0
+
+Other credits and author copyright notices can be found in the respective files.

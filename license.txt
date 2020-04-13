@@ -1,0 +1,272 @@
+LICENSE AGREEMENT FOR AGILEENGINE'S AJAXSWING SOFTWARE PRODUCT 
+
+IMPORTANT - READ CAREFULLY: 
+This AjaxSwing End-User License Agreement 
+("License" or "Agreement") is a binding contract between you and 
+AgileEngine ("AgileEngine") for AgileEngine's AjaxSwing ("Software" or 
+"Product"), which includes computer software and may include related 
+media, printed materials, and "online" or electronic documentation. Upon 
+installing the software product, you agree to be bound by the terms of 
+this License. Any installation or use of the AjaxSwing Product will 
+signify acceptance of, and your agreement to be bound by, this License. 
+If you determine that you do not agree to the terms of this License, do 
+not install or use the Product and if you received the product by other 
+than electronic means, return it immediately to AgileEngine. 
+
+AgileEngine LICENSE 
+AjaxSwing means the current or future AgileEngine's 
+AjaxSwing product and any additional modules, if any, licensed to you 
+from AgileEngine, that are installed on computer(s) acting as server(s). 
+Additional software components may have been distributed to you along 
+with the Product. Except as otherwise specifically stated in a separate 
+license agreement provided with any such component, such additional 
+components are subject to this License. The Product is protected by 
+copyright laws and international copyright treaties, as well as other 
+intellectual property laws and treaties. The Product is licensed, not 
+sold. 
+
+1. GRANT OF LICENSE. 
+This License grants you the following perpetual, 
+non-exclusive and non-transferable rights: a) Installation and Use. 
+Subject to the test server, back-up and disaster recovery rights stated 
+elsewhere in this License, you may install the Product where the 
+application is located based on the number of concurrent users per 
+application according to purchased license restrictions. b) Business Use 
+– Once installed in accordance with this License, you may use the 
+Product only in the conduct of your own or your Affiliates' business and 
+may not, directly or indirectly use the Product to process the work of 
+any third party. "Affiliates" means any entity controlled by, or under 
+common control with, you, the individual or entity purchasing this 
+License. c) Other Restrictions on Use – Your rights under this License 
+shall not include the right to grant sublicenses or transfer (including 
+transfer by rental or lease) the Product or any part thereof. Any 
+attempt to grant sublicenses or transfer any rights shall be considered 
+a breach of this Agreement. You may not create derivative works from, 
+reverse engineer, decompile, or disassemble the Product except to the 
+extent the foregoing restriction is expressly prohibited by applicable 
+law. d) Disaster Recovery and Backup – You may maintain the Product on a 
+separate disaster recovery site provided that the installation is solely 
+for the purposes of backup and emergency use. In addition, after 
+installation of the Product pursuant to this License, you may keep the 
+original media on which the Product was provided solely for archival 
+purposes or for reinstallation of the Product in accordance with the 
+terms of this License. 
+
+2. SUBSEQUENT RELEASES. 
+A Product labeled as a subsequent release (or 
+similar term) replaces and/or supplements the product originally 
+licensed, and following the subsequent release you may use the resulting 
+Product only in accordance with the terms of this License. Such releases 
+include enhancements and corrections of and modifications and additions 
+to the Product. Releases also include later versions of the Product. For 
+the first year of this agreement and upon payment of the annual 
+maintenance fee every year thereafter, you will receive for your use all 
+releases issued by AgileEngine. Use of such releases will be governed by 
+and subject to the terms of this Agreement relating to the reproduction 
+and use of the Product. 
+
+3. OWNERSHIP. 
+The Product is licensed, not sold. Title and copyrights in 
+and to the Product, accompanying printed materials, and any copies you 
+are permitted to make herein are owned by AgileEngine. 
+
+4. DUAL-MEDIA SOFTWARE. 
+You may receive the Product in more than one 
+medium. Regardless of the type or size of medium you receive, you may 
+use only the medium that is appropriate for your hardware devices. You 
+may not loan, rent, lease, or otherwise transfer any unused medium to 
+another user. 
+
+5. EXPORT CONTROLS. 
+You agree and certify that no technical data 
+received from AgileEngine, nor the direct product thereof, will be shipped, 
+transferred or exported, directly or indirectly, to any country in 
+violation of any applicable law, including the United States Export 
+Administration Act and the regulations thereunder. 
+
+6. TERMINATION. 
+You may terminate this License by destroying or 
+returning to AgileEngine the Product and all copies thereof. If you fail to 
+comply with any provisions of this Agreement, each of which is 
+considered to be the essence of this Agreement, AgileEngine may immediately 
+terminate this Agreement if you do not pay maintenance fees when due or 
+if you breach any provisions of this License and do not cure such breach 
+within thirty days (30) of AgileEngine's notification to you of such 
+breach. Upon termination, you shall immediately cease use of the Product 
+and, at the option of AgileEngine, shall either promptly return to AgileEngine 
+all copies of the Product in your possession or destroy all such copies, 
+and shall certify in writing that all such copies have been returned or 
+destroyed. 
+
+7. LIMITED WARRANTY. 
+AgileEngine has no control over the conditions under 
+which you use the Product and subsequent updates and does not and cannot 
+warrant the results obtained by such use. a) LIMITED WARRANTY. In 
+addition to warranting that it has the right to grant the license 
+contained in this Agreement, AgileEngine warrants that the media on which 
+the Product is delivered and any user manuals to be leased under the 
+terms of this Agreement are free of defects in material and workmanship 
+under normal use for a period of thirty (30) days following shipment. 
+AgileEngine further warrants that the Product and any subsequent updates 
+will perform substantially in accordance with the accompanying written 
+materials such as those specifications found in the user manual or 
+documentation provided in effect as of the date of this Agreement for 
+a period of thirty (30) days from the date of receipt. AgileEngine does not 
+warrant that the functions contained in the Product or in any subsequent 
+update will meet your requirements or that operation of the Product will 
+be uninterrupted or error free. This Limited Warranty does not cover any 
+copy of the Product or update or any user manual which has been altered 
+or changed in any way, or if failure of the Product has resulted from 
+accident, abuse, or misapplication. AgileEngine is not responsible for 
+problems caused by changes in or modifications to the operating 
+characteristics of any computer hardware or operating system for which 
+the Product is procured, nor is AgileEngine responsible for problems which 
+occur as a result of the use of the Product in conjunction with software 
+or hardware which is incompatible with the Product. To the extent 
+allowed by applicable law, implied warranties on the Product, if any, 
+are limited to thirty (30) days. Some states/jurisdictions do not allow 
+limitations on duration of an implied warranty, so the above limitation 
+may not apply to you. b) CUSTOMER REMEDIES. AgileEngine's entire liability 
+and your exclusive remedy shall be the replacement by AgileEngine of any 
+magnetic media or user manual not meeting AgileEngine's "Limited Warranty." 
+In addition, while in no sense warranting that the operation of the 
+Product will be uninterrupted or error free, AgileEngine will make best 
+efforts to supply you with corrected versions of the Product through 
+updates to correct any errors which you find in the Product during the 
+warranty period and which prevent the Product from substantially 
+performing as described in the accompanying written materials. Any 
+replacement Product will be warranted for the remainder of the original 
+warranty period or thirty (30) days, whichever is longer. Outside the 
+United States, neither these remedies nor any product support services 
+offered by AgileEngine are available without proof of purchase from an 
+authorized source. You must notify AgileEngine of any breach of warranty 
+within the warranty period to be entitled to remedy. c) TO THE MAXIMUM 
+EXTENT PERMITTED BY APPLICABLE LAW, AGILEENGINE AND ITS DISTRIBUTORS 
+DISCLAIM ALL OTHER WARRANTIES AND CONDITIONS, EITHER EXPRESS OR IMPLIED, 
+INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OR CONDITIONS OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND 
+NON-INFRINGEMENT, WITH REGARD TO THE PRODUCT, AND THE PROVISION OF OR 
+FAILURE TO PROVIDE SUPPORT SERVICES. The above limited warranty gives 
+you specific legal rights. You may have others, which vary amongst 
+jurisdictions. The warranties contained in Subsection a) of this Section 
+are made in lieu of all other express warranties, whether oral or 
+written. Only an authorized officer of AgileEngine may make modifications 
+to this warranty or additional warranties binding on AgileEngine, and such 
+modifications or warranties must be in writing. Accordingly, additional 
+statements such as those made in advertising or presentations, whether 
+oral or written, do not constitute warranties by AgileEngine and should not 
+be relied upon as such. d) Any statements made by a dealer or any other 
+third party other than AgileEngine are not warranties and cannot be relied 
+on by you. AgileEngine shall not be liable for any claimed non- conformance 
+of the Software Product under Article 35(2) of the United Nations 
+Convention on Contracts for the International Sale of Goods, even if 
+that Convention were to be determined applicable to this license and the 
+underlying transactions. e) LIMITATION OF LIABILITY. TO THE MAXIMUM 
+EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL AGILEENGINE OR ITS 
+DISTRIBUTORS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR 
+CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES 
+FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR 
+INABILITY TO USE THE PRODUCT OR THE FAILURE TO PROVIDE SUPPORT SERVICES, 
+EVEN IF AGILEENGINE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN 
+ANY CASE, AGILEENGINE'S ENTIRE LIABILITY UNDER ANY PROVISION OF THIS 
+LICENSE SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE 
+PRODUCT. Because some jurisdictions do not allow the exclusion or 
+limitation of liability, the above limitation may not apply to you. 
+
+9. US GOVERNMENT RESTRICTED RIGHTS. 
+The Product and documentation are 
+provided with RESTRICTED RIGHTS. Use, duplication, or disclosure by the 
+Government is subject to restrictions as set forth in subparagraph 
+(c)(1)(ii) of the Rights in Technical Data and Computer Software clause 
+at DFARS 252.227-7013 or subparagraphs (c)(1) and (2) of the Commercial 
+Computer Software—Restricted Rights at 48 CFR 52.227-19, as applicable. 
+
+10. TERM. 
+This Agreement is effective from the date of its execution to 
+a date of one year from that date unless terminated earlier by either 
+party because of the default of the other party in any obligation under 
+this Agreement. 
+
+11. ANNUAL MAINTENANCE FEE. 
+On the date of the anniversary of this 
+Agreement, you may pay an annual maintenance fee. Payment of the fees 
+entitle you to product updates, releases and technical support. 
+
+12. RENEWAL OF LICENSE. 
+The License granted under this Agreement and the 
+terms of this Agreement shall be automatically renewed upon the 
+continued payment of the annual maintenance fee unless either party 
+notifies the other in writing of an intent to terminate or a request to 
+modify terms at least sixty (60) days prior to the expiration date of 
+this Agreement. In the event no notice of termination or request to 
+modify is sent by either party, this Agreement, its license and terms, 
+shall be renewed for the term of one year. If either party notifies the 
+other of an election to terminate sixty (60) days prior to the 
+Agreement's expiration date or if the parties cannot agree on the 
+proposed modifications, the license will terminate upon the expiration 
+of the Agreement. 
+
+13. TAXES. 
+You are required to pay all local, state and federal taxes 
+(but excluding taxes imposed on AgileEngine income) levied or imposed by 
+reason of the transactions contemplated in this Agreement. You shall 
+promptly pay to AgileEngine an amount equal to any such tax(es) actually 
+paid or required to be collected by AgileEngine. 
+
+14. INDEMNIFICATION. 
+AgileEngine, at its own expense, will defend any 
+action brought against AgileEngine to the extent that it is based on a 
+claim that the Product or any subsequent update used within the scope of 
+this Agreement infringes any patent, copyright, license, trade secret, 
+or other propriety right, provided we are immediately notified in 
+writing of such a claim. AgileEngine shall have the right to control the 
+defense of all such claims, lawsuits, and other proceedings. In no event 
+shall you settle any such claim, lawsuit or proceeding without AgileEngine 
+prior written approval. AgileEngine shall have no liability for any claim 
+under this Section if a claim for patent, copyright, license, or trade 
+secret infringement is based on the use of a superseded or altered 
+version of the Product if such infringement would have been avoided by 
+use of the latest unaltered version of the Product available as an 
+update. 
+
+15. ARBITRATION. 
+If you acquired this product in the United States, this 
+Agreement is governed by the laws of the Commonwealth of Virginia. If 
+this product was acquired outside the United States, then local law may 
+apply. Except for the right of either party to apply to a court of 
+competent jurisdiction for a temporary restraining order, a preliminary 
+injunction, or other equitable relief to preserve the status quo or 
+prevent irreparable harm, any controversy or claim arising out of or 
+relating to this Agreement shall be settled by binding arbitration 
+administered by the American Arbitration Association and pursuant to its 
+rules, and judgment upon the award rendered in such arbitration may be 
+entered in any court of competent jurisdiction. 
+
+16. MARKETING. 
+You agree to be identified as a customer of AgileEngine and 
+you agree that AgileEngine may refer to you by name, trade name and 
+trademark, if applicable, and may briefly describe your business in 
+AgileEngine's marketing materials and web site. You hereby grant AgileEngine a 
+license to use your name and any of your trade names and trademarks 
+solely in connection with the rights granted to AgileEngine pursuant to 
+this marketing section. 
+
+17. PRIVACY POLICY
+AgileEngine does not collect or share personal information.
+
+18. GENERAL. 
+This Agreement will inure to the benefit of AgileEngine, its 
+successors, and assigns. Each party acknowledges that it has read this 
+Agreement and understands it, and agrees to be bound by its terms, and 
+further agrees that they are the complete and exclusive statement of the 
+agreement between the parties which supercedes and merges all prior 
+proposals, understandings, and all other agreements, oral and written, 
+between the parties relating to this Agreement. If any provision of the 
+Agreement is deemed invalid by a court of competent jurisdiction, such 
+provisions shall be enforced to the maximum extent permitted and the 
+remainder will remain in full force. 
+
+Should you have any questions concerning this License, or if you desire 
+to contact AgileEngine for any reason, please email us at 
+info@agileengine.com 

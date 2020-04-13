@@ -1,0 +1,37 @@
+html, body		    {background-color:white; margin:0px; padding:0px;}
+html, body, input, form		    {font-family:arial,helvetica,espy,sans-serif; font-size:11px; }
+.JMenu, .JMenuItem, .BasicComboBoxRenderer_UIResource, .ui-draggable {cursor:default;}
+.JMenu.enabled .htmlString:hover {color:#338!important;}
+.JMenuItem.enabled .htmlString:hover {color:#55A!important;}
+.BasicComboBoxRenderer_UIResource .htmlString:hover {color:#55A!important;}
+.buttonBackground {background: #ECF4FE url(../../images/com/creamtec/ajaxswing/laf/icons/button.gif) repeat-x 0px 100%!important;}
+.JButton:hover .buttonBackground {background: #CFE4FC url(../../images/com/creamtec/ajaxswing/laf/icons/button-hover.gif) repeat-x 0px 100%!important}
+
+.AjaxSwingTagA{
+    cursor: pointer;
+}
+
+.AjaxSwingHover:hover {
+    color: #00aeef;
+    text-decoration: underline;
+}
+
+.AjaxSwingFontCalibrationMessage {
+    font-size: 18px;
+    font-family: arial, helvetica;
+    white-space: nowrap;
+    text-align: center;
+    z-index: 1;
+    color: red
+}
+
+.AjaxSwingInitializationMessage {
+    font-size: 20px;
+    font-family: arial, helvetica;
+    padding: 30px;
+    margin: 200px;
+    white-space: nowrap;
+    border: 1px dashed gray;
+    text-align: center;
+    z-index: 1
+}

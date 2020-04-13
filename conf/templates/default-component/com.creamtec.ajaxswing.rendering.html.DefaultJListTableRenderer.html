@@ -1,0 +1,48 @@
+<#-- 
+Template which is used to generate partial update 
+for JList table-based component
+-->
+var tbody = $('#${componentName} tbody');
+var html = ''; 
+var tr = null; 
+var td = null; 
+var delarray = [];
+<#-- 
+Add deleted items to array 
+-->
+<#assign addDeleteScript = false>
+<#list delitems as item>
+<#assign addDeleteScript = true>
+tr = $('tr', tbody).get(${item.index});
+if (typeof tr != 'undefined') delarray[delarray.length] = tr;
+</#list>  
+<#-- 
+Snippet to delete list rows and update row IDs  
+-->
+<#if addDeleteScript>
+for(var i = 0; i < delarray.length; i++) { 
+	var tr = delarray[i];
+	$(tr).empty(); 
+	$(tr).remove(); 
+} 
+var index = 0;
+$('tr', tbody).each(function(){
+	$(this).attr('id', '${componentName}_' + index);
+	index++; 
+});
+</#if>
+<#-- 
+Update selected items
+-->
+<#list updateitems as item>
+tr = $('tr', tbody).get(${item.index});
+td = $('td', tr);
+$(td).html('${item.value}');
+</#list>
+<#-- 
+Add items
+-->
+<#list additems as item>
+html = "<tr id='${componentName}_${item.index}' style='${item.rowStyle}' ${item.contextMenu} onmousedown='return tableClick(this,event)'><td${item.cellStyle}>${item.value}</td></tr>";
+$(tbody).append(html);
+</#list>

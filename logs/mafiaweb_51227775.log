@@ -1,0 +1,4 @@
+2020/04/11 20:27:08:744 : main : Initiating new JVMProcess on RMI[8045] -- Params[[mafiaweb, 8045, 51227775]]
+2020/04/11 20:27:14:847 : RMI TCP Connection(1)-192.168.0.106 : for headless unix environments ensure xvfb is running
+2020/04/11 20:27:15:073 : RMI TCP Connection(1)-192.168.0.106 : [com.creamtec.ajaxswing.ClientAgentImpl] Initialization complete, instances in JVM = 1
+2020/04/11 20:39:54:362 : RMI Unreferenced-0 : [com.creamtec.ajaxswing.ClientAgentImpl] shutdown, remaining instances in JVM = 0

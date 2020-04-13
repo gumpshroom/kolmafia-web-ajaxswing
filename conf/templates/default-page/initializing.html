@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html class="framePage">
+<head>
+    <title>${page.i18nkeys['message.initializing.title']}</title>
+    <script type="text/javascript" src="${page.docsURL}/scripts/ajaxswing/AjaxSwing_init.js"></script>
+    <link rel="stylesheet" type="text/css" href="${page.themeDocsURL}/css/ajaxswing/styles_common.css">
+</head>
+
+<body class="framePage" onload="initializeAndSubmit('${request.getContextPath()}')">
+  <#include "body-header.html">
+
+  <div class="dialog border AjaxSwingInitializationMessage">
+  	${page.i18nkeys['message.initializing.text']}
+  </div>
+  
+  <div id="warningMessageAboutFontCalibration" class="dialog border AjaxSwingFontCalibrationMessage">
+  </div>
+
+  <form id="AjaxSwingForm" name="AjaxSwingForm" method=POST>
+    <input id="csrfToken" type="hidden" name="csrfToken" value="${page.csrfToken}">
+    <input id="AjaxSwingInitData" type="hidden" name="AjaxSwingInitData">
+    <input id="FontCalibrationData" type="hidden" name="FontCalibrationData">
+  </form>
+  
+    <div id="fontCalibration" style="visibility: hidden">
+    </div>
+  
+  <#include "body-footer.html">
+</body>
+</html>

@@ -1,0 +1,31 @@
+  <meta name="format-detection" content="telephone=no"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>${page.title?html}</title>
+  
+  <link rel="stylesheet" type="text/css" href="${page.getThemeDocsStampURL("/css/ajaxswing/styles_common.css")}">
+  <link rel="stylesheet" type="text/css" href="${page.getThemeDocsStampURL("/css/custom.css")}">
+  
+  <script type="text/javascript">
+    function getDocsURL() {
+      return '${page.themeDocsURL}';
+    }
+    function getSubmitURL() {
+      return '${page.submitURL}';
+    }
+    function onLoad() {
+      ${page.onLoadScriptBody};
+      customOnLoad();
+    }
+  </script>
+  
+  <script type="text/javascript" src="${page.getDocsStampURL("/scripts/ajaxswing/AjaxSwing_init.js")}"></script>
+  <script type="text/javascript" src="${page.getDocsStampURL("/scripts/ajaxswing/ajaxswing.js")}"></script>
+  <script type="text/javascript" src="${page.getDocsStampURL("/scripts/custom.js")}"></script>
+  <script type="text/javascript" src="${page.getDocsStampURL("/scripts/tinymce/tinymce.min.js")}"></script>
+  
+  ${page.header}
+  
+  <script type="text/javascript">
+    window.onresize=scheduleSubmitResize;
+    ${page.headerScript}
+  </script>

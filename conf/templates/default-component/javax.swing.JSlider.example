@@ -1,0 +1,10 @@
+<div id="${id}" class="ui-slider-1 ui-slider" style="${style}">
+    <div style="position:absolute;left:10px" class="ui-slider-handle"></div>	
+    <input id="${id}Value" name="${id}" type="hidden"/>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('#${id}').slider();
+});
+</script>

@@ -1,0 +1,4 @@
+[TraceMgr] Opening log file ../logs/mafiaweb_52004783.log
+2020/04/11 20:40:05:055 : main : Initiating new JVMProcess on RMI[8045] -- Params[[mafiaweb, 8045, 52004783]]
+2020/04/11 20:40:10:217 : RMI TCP Connection(1)-192.168.0.106 : for headless unix environments ensure xvfb is running
+2020/04/11 20:40:10:257 : RMI TCP Connection(1)-192.168.0.106 : [com.creamtec.ajaxswing.ClientAgentImpl] Initialization complete, instances in JVM = 1

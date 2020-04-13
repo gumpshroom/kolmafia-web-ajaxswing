@@ -1,0 +1,6 @@
+In this folder you see links to Java applications: WindowsThemeDemo and SwingSet which is part of the Sun Java JDK. You might want to run these Java applications and compare them with AjaxSwing outputs.
+
+We highly recommend to start the SwingSet from here along with web-enabled version SwingSet from your browser:
+http://localhost:8040/ajaxswing/apps/SwingSet
+
+This is the best way to compare tab by tab Sun SwingSet and SwingSet web-enabled by AjaxSwing.

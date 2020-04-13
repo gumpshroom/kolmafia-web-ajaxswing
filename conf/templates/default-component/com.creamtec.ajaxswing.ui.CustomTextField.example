@@ -1,0 +1,1 @@
+<input id="${id}" name="${id}" type="text" value="${component.text}" class="text" style="background-color:#A0C4EB;${style}"/>
