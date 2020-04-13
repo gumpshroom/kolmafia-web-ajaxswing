@@ -1,0 +1,7 @@
+xvfb
+xauth
+xhost
+libxext6
+libxi6
+libxtst6
+libxrender1
