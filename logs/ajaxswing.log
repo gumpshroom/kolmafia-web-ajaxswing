@@ -1,8 +1,8 @@
-2020/04/11 17:39:34:613 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 17:39:34:613 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 17:39:45:218 : http-nio-8040-exec-9 : for headless unix environments ensure xvfb is running
 2020/04/11 17:39:46:298 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 17:39:49:167 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:10:09:017 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:10:09:017 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:10:09:387 : http-nio-8040-exec-1 : for headless unix environments ensure xvfb is running
 2020/04/11 18:10:09:888 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:10:13:693 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
@@ -41,7 +41,7 @@ com.creamtec.ajaxswing.core.AjaxSwingException: Failed to find application prope
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2020/04/11 18:20:50:282 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:20:50:282 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:20:57:670 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
 2020/04/11 18:20:58:783 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:21:00:873 : Thread-9 : WARN: Failed to set look and feel or look and feel change not allowed by AjaxSwing (Exception java.lang.RuntimeException, Changing look and feel not allowed, use agent.allowLFChange=true)
@@ -64,7 +64,7 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 2020/04/11 18:21:02:437 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:21:52:627 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:21:52:627 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:21:53:783 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
 2020/04/11 18:21:54:669 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:21:56:764 : Thread-10 : WARN: Failed to set look and feel or look and feel change not allowed by AjaxSwing (Exception java.lang.RuntimeException, Changing look and feel not allowed, use agent.allowLFChange=true)
@@ -87,7 +87,7 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 2020/04/11 18:21:58:378 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:25:30:450 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:25:30:450 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:25:31:511 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
 2020/04/11 18:25:32:407 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:25:34:508 : Thread-10 : WARN: Failed to set look and feel or look and feel change not allowed by AjaxSwing (Exception java.lang.RuntimeException, Changing look and feel not allowed, use agent.allowLFChange=true)
@@ -110,31 +110,31 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 2020/04/11 18:25:36:172 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:33:34:659 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:33:34:659 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:33:35:763 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
 2020/04/11 18:33:36:615 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:33:40:273 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:35:00:492 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:35:00:492 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:35:01:639 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
 2020/04/11 18:35:02:507 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:35:06:425 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:38:14:943 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:38:14:943 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:38:19:911 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
 2020/04/11 18:38:21:003 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:38:24:817 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:38:56:942 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:38:57:678 : http-nio-8040-exec-2 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:39:53:474 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:39:53:474 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:39:54:872 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
 2020/04/11 18:39:55:765 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:39:59:672 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/11 18:41:34:570 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:41:35:299 : http-nio-8040-exec-10 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:43:26:562 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:43:26:562 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:43:27:803 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
 2020/04/11 18:43:28:748 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:43:32:544 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:54:11:290 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:54:11:290 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:54:24:032 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
 2020/04/11 18:54:24:953 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:54:27:058 : Thread-9 : WARN: Failed to set look and feel or look and feel change not allowed by AjaxSwing (Exception java.lang.RuntimeException, Changing look and feel not allowed, use agent.allowLFChange=true)
@@ -157,21 +157,21 @@ java.lang.RuntimeException: Changing look and feel not allowed, use agent.allowL
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
 2020/04/11 18:54:28:973 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 18:56:51:988 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 18:56:51:988 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 18:56:54:116 : http-nio-8040-exec-2 : for headless unix environments ensure xvfb is running
 2020/04/11 18:56:55:200 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 18:56:58:841 : http-nio-8040-exec-3 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 19:04:03:347 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 19:04:03:347 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 19:04:19:557 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
 2020/04/11 19:04:20:596 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 19:04:24:230 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 19:06:08:849 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 19:06:08:849 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 19:06:13:376 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
 2020/04/11 19:06:14:422 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 19:06:18:049 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/11 20:26:57:771 : Thread-6 : [com.creamtec.ajaxswing.core.ClientAgentFactory$1] Exception while warming up client agent for applicaton mafiaweb (Exception java.rmi.ConnectException, Connection refused to host: 192.168.0.106; nested exception is: 
+2020/04/11 20:26:57:771 : Thread-6 : [com.creamtec.ajaxswing.core.ClientAgentFactory$1] Exception while warming up client agent for applicaton mafiaweb (Exception java.rmi.ConnectException, Connection refused to host: 192.168.0.106; nested exception is:
 	java.net.ConnectException: Connection refused (Connection refused))
-java.rmi.ConnectException: Connection refused to host: 192.168.0.106; nested exception is: 
+java.rmi.ConnectException: Connection refused to host: 192.168.0.106; nested exception is:
 	java.net.ConnectException: Connection refused (Connection refused)
 	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:623)
 	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
@@ -193,9 +193,9 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:148)
 	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:617)
 	... 5 more
-2020/04/11 20:39:54:778 : Thread-6 : [com.creamtec.ajaxswing.core.ClientAgentFactory$1] Exception while warming up client agent for applicaton mafiaweb (Exception java.rmi.ConnectException, Connection refused to host: 192.168.0.106; nested exception is: 
+2020/04/11 20:39:54:778 : Thread-6 : [com.creamtec.ajaxswing.core.ClientAgentFactory$1] Exception while warming up client agent for applicaton mafiaweb (Exception java.rmi.ConnectException, Connection refused to host: 192.168.0.106; nested exception is:
 	java.net.ConnectException: Connection refused (Connection refused))
-java.rmi.ConnectException: Connection refused to host: 192.168.0.106; nested exception is: 
+java.rmi.ConnectException: Connection refused to host: 192.168.0.106; nested exception is:
 	java.net.ConnectException: Connection refused (Connection refused)
 	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:623)
 	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
@@ -217,7 +217,7 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:148)
 	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:617)
 	... 5 more
-2020/04/11 20:58:15:428 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/11 20:58:15:428 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/11 20:58:23:773 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
 2020/04/11 20:58:24:877 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/11 20:58:28:727 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
@@ -240,13 +240,13 @@ java.lang.IllegalThreadStateException
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.doVoidMethodVoid(AjaxSwingThread.java:179)
 	at com.creamtec.ajaxswing.core.AjaxSwingThread.run(AjaxSwingThread.java:64)
-2020/04/13 11:44:33:649 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/13 11:44:33:649 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/13 11:47:23:258 : http-nio-8040-exec-6 : for headless unix environments ensure xvfb is running
 2020/04/13 11:47:24:447 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 11:47:27:205 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
 2020/04/13 11:47:28:603 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 11:47:30:623 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
-2020/04/13 11:48:28:620 : localhost-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/13 11:48:28:620 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
 2020/04/13 11:48:32:926 : http-nio-8040-exec-3 : for headless unix environments ensure xvfb is running
 2020/04/13 11:48:34:005 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 11:48:38:027 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete

@@ -243,7 +243,7 @@ public class AppWizard
                 fileName = fileName.substring(0, fileName.indexOf('.'));
             }
 
-            String appURL = "http://localhost:8040/ajaxswing/apps/" + fileName;
+            String appURL = "http://0.0.0.0:8040/ajaxswing/apps/" + fileName;
             JTextArea txaMsg = new JTextArea("Properties file has been successfully saved.\n" +
                 "If your web server is configured, you can access it via a URL similar to this\n" +
                 appURL + "\n" +

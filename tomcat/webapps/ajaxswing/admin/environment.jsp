@@ -112,8 +112,8 @@ Canonical: <%=ajaxswingHome%>
   String hostName = "unknown";
   String hostAddress = "unknown";
   try {
-    hostName = java.net.InetAddress.getLocalHost().getHostName();
-    hostAddress = java.net.InetAddress.getLocalHost().getHostAddress();
+    hostName = java.net.InetAddress.get0.0.0.0().getHostName();
+    hostAddress = java.net.InetAddress.get0.0.0.0().getHostAddress();
   }
   catch (Exception x) {
     x.printStackTrace();

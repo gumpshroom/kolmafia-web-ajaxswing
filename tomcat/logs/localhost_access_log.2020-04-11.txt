@@ -246,7 +246,7 @@
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:17:38 -0400] "POST /ajaxswing/apps/SwingSet2 HTTP/1.1" 200 234
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:17:41 -0400] "POST /ajaxswing/apps/SwingSet2 HTTP/1.1" 200 234
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:17:42 -0400] "GET /ajaxswing/apps/KoLmafia-20.3 HTTP/1.1" 302 -
-0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:17:43 -0400] "GET /ajaxswing/Light_docs/error.jsp?locale=en_US&appName=default&ajaxswing.submitURL=http://localhost:8040/ajaxswing/apps/KoLmafia-20.3&ajaxswing.themeDocsURL=http://localhost:8040/ajaxswing/Light_docs HTTP/1.1" 200 6827
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:17:43 -0400] "GET /ajaxswing/Light_docs/error.jsp?locale=en_US&appName=default&ajaxswing.submitURL=http://0.0.0.0:8040/ajaxswing/apps/KoLmafia-20.3&ajaxswing.themeDocsURL=http://0.0.0.0:8040/ajaxswing/Light_docs HTTP/1.1" 200 6827
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:17:43 -0400] "GET /ajaxswing/Light_docs/images/com/creamtec/ajaxswing/laf/icons/refresh.png HTTP/1.1" 200 4007
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:17:43 -0400] "GET /ajaxswing/Light_docs/images/com/creamtec/ajaxswing/laf/icons/banner.png HTTP/1.1" 200 17209
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:17:44 -0400] "POST /ajaxswing/apps/SwingSet2 HTTP/1.1" 200 234
@@ -308,7 +308,7 @@
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:20:32 -0400] "POST /ajaxswing/apps/SwingSet2 HTTP/1.1" 200 234
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:20:35 -0400] "POST /ajaxswing/apps/SwingSet2 HTTP/1.1" 200 234
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:20:39 -0400] "POST /ajaxswing/apps/SwingSet2 HTTP/1.1" 200 234
-0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:20:51 -0400] "GET /ajaxswing/Light_docs/error.jsp?locale=en_US&appName=default&ajaxswing.submitURL=http://localhost:8040/ajaxswing/apps/KoLmafia-20.3&ajaxswing.themeDocsURL=http://localhost:8040/ajaxswing/Light_docs HTTP/1.1" 200 6827
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:20:51 -0400] "GET /ajaxswing/Light_docs/error.jsp?locale=en_US&appName=default&ajaxswing.submitURL=http://0.0.0.0:8040/ajaxswing/apps/KoLmafia-20.3&ajaxswing.themeDocsURL=http://0.0.0.0:8040/ajaxswing/Light_docs HTTP/1.1" 200 6827
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:20:52 -0400] "GET /ajaxswing HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:20:57 -0400] "GET /ajaxswing/apps/kolmafia HTTP/1.1" 200 1376
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:20:58 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 15855
@@ -1046,7 +1046,7 @@
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:53:58 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 234
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:54:01 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 234
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:54:12 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 437
-0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:54:12 -0400] "GET /ajaxswing/Light_docs/exit.jsp?locale=en&appName=kolmafia&ajaxswing.submitURL=http://localhost:8040/ajaxswing/apps/kolmafia&ajaxswing.themeDocsURL=http://localhost:8040/ajaxswing/Light_docs HTTP/1.1" 200 983
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:54:12 -0400] "GET /ajaxswing/Light_docs/exit.jsp?locale=en&appName=kolmafia&ajaxswing.submitURL=http://0.0.0.0:8040/ajaxswing/apps/kolmafia&ajaxswing.themeDocsURL=http://0.0.0.0:8040/ajaxswing/Light_docs HTTP/1.1" 200 983
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:54:23 -0400] "GET /ajaxswing/apps/kolmafia HTTP/1.1" 200 1376
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:54:24 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 15855
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:18:54:29 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 4768
@@ -2277,7 +2277,7 @@
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:19:53:26 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 234
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:19:53:29 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 234
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:20:26:47 -0400] "POST /ajaxswing/apps/kolmafia HTTP/1.1" 200 437
-0:0:0:0:0:0:0:1 - - [11/Apr/2020:20:26:47 -0400] "GET /ajaxswing/Light_docs/exit.jsp?locale=en&appName=kolmafia&ajaxswing.submitURL=http://localhost:8040/ajaxswing/apps/kolmafia&ajaxswing.themeDocsURL=http://localhost:8040/ajaxswing/Light_docs HTTP/1.1" 200 983
+0:0:0:0:0:0:0:1 - - [11/Apr/2020:20:26:47 -0400] "GET /ajaxswing/Light_docs/exit.jsp?locale=en&appName=kolmafia&ajaxswing.submitURL=http://0.0.0.0:8040/ajaxswing/apps/kolmafia&ajaxswing.themeDocsURL=http://0.0.0.0:8040/ajaxswing/Light_docs HTTP/1.1" 200 983
 127.0.0.1 - - [11/Apr/2020:20:58:08 -0400] "GET / HTTP/1.1" 200 1459
 127.0.0.1 - - [11/Apr/2020:20:58:16 -0400] "GET / HTTP/1.1" 200 1459
 0:0:0:0:0:0:0:1 - - [11/Apr/2020:20:58:23 -0400] "POST /ajaxswing/apps/kolmafia?locale=en HTTP/1.1" 200 1376

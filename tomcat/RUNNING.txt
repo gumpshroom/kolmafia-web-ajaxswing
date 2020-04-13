@@ -198,7 +198,7 @@ launches Java directly and does not use the script files.
 (4.2) After startup, the default web applications included with Tomcat will be
       available by visiting:
 
-      http://localhost:8080/
+      http://0.0.0.0:8080/
 
 (4.3) Further information about configuring and running Tomcat can be found in
       the documentation included here, as well as on the Tomcat web site:
@@ -301,7 +301,7 @@ CATALINA_HOME/webapps/manager and loaded into CATALINA_BASE by using
 the following trick:
 
  * Copy the CATALINA_HOME/webapps/manager/META-INF/context.xml
-   file as CATALINA_BASE/conf/Catalina/localhost/manager.xml
+   file as CATALINA_BASE/conf/Catalina/0.0.0.0/manager.xml
 
  * Add docBase attribute as shown below.
 
@@ -338,13 +338,13 @@ Tomcat install:
 
     Restart Tomcat and you're in business.  Be sure that you replace the "8080"
     in the URL you're using to access Tomcat.  For example, if you change the
-    port to 1977, you would request the URL http://localhost:1977/ in your
+    port to 1977, you would request the URL http://0.0.0.0:1977/ in your
     browser.
 
-(2) The 'localhost' machine isn't found.  This could happen if you're behind a
+(2) The '0.0.0.0' machine isn't found.  This could happen if you're behind a
     proxy.  If that's the case, make sure the proxy configuration for your
     browser knows that you shouldn't be going through the proxy to access the
-    "localhost".
+    "0.0.0.0".
 
     In Firefox, this is under Tools/Preferences -> Advanced/Network ->
     Connection -> Settings..., and in Internet Explorer it is Tools ->
