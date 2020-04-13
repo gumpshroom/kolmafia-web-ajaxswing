@@ -28,10 +28,10 @@ if [ -r "$AJAXSWING_HOME"/bin/setEnv.sh ]; then
 fi
 
 # Make sure AjaxSwing libraries are compatible with the current JDK version
-xvfb-run -a "$JAVA_HOME"/bin/java -Dajaxswing.home="$AJAXSWING_HOME" -classpath "$AJAXSWING_HOME/lib/bootstrap.jar" com.creamtec.core.Bootstrapper --host 0.0.0.0 --port $PORT
+"$JAVA_HOME"/bin/java -Dajaxswing.home="$AJAXSWING_HOME" -classpath "$AJAXSWING_HOME/lib/bootstrap.jar" com.creamtec.core.Bootstrapper
 
 # Add -security parameter to guarantee that AjaxSwing security manager doesn't conflict with Tomcat's security manager
 # If you do it, make sure to grant AllPermission to your classes in tomcat/conf/catalina.policy
 #$CATALINA_HOME/bin/startup.sh -security
 
-exec $CATALINA_HOME/bin/startup.sh
+exec $CATALINA_HOME/bin/startup.sh 

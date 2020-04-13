@@ -264,9 +264,11 @@ grant codeBase "file:${catalina.home}/webapps/host-manager/-" {
 // Tomcat specific WAR url scheme.
 //
 // The permissions granted to the entire web application
-// grant codeBase "war:file:${catalina.base}/webapps/examples.war*/-" {
-// };
+grant codeBase "war:file:${catalina.base}/webapps/examples.war*/-" {
+        permission java.security.AllPermission;
+};
 //
 // The permissions granted to a specific JAR
-// grant codeBase "war:file:${catalina.base}/webapps/examples.war*/WEB-INF/lib/foo.jar" {
-// };
+grant codeBase "war:file:${catalina.base}/webapps/examples.war*/WEB-INF/lib/kolmafia.jar" {
+        permission java.security.AllPermission;
+};

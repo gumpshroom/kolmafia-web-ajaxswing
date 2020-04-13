@@ -43,7 +43,7 @@ fi
 JAVA_OPTS="${JAVA_OPTS} -Xbootclasspath/p:${AJAXSWING_HOME}/lib/boot/asboot.jar -mx312m -Dajaxswing.home=${AJAXSWING_HOME}"
 
 # java command line option that need for the Linux OS
-JAVA_OPTS="${JAVA_OPTS} -Djava.awt.headless=true"
+JAVA_OPTS="${JAVA_OPTS} -Djava.awt.headless=false"
 
 # Determine the JDK fonts directory
 if [ -z "$JAVA_FONTS_DIR" ] ;  then
