@@ -398,3 +398,9 @@ java.lang.IllegalThreadStateException
 2020/04/13 12:56:45:902 : Thread-22 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
 2020/04/13 12:56:47:757 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
 2020/04/13 12:56:47:760 : Thread-24 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
+2020/04/13 13:22:29:409 : 0.0.0.0-startStop-1 : createServerSocket: 127.0.0.1:8045
+2020/04/13 13:22:39:015 : http-nio-8040-exec-4 : for headless unix environments ensure xvfb is running
+2020/04/13 13:22:40:246 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:22:41:047 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+2020/04/13 13:22:43:148 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete
+2020/04/13 13:22:45:339 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initialization of client complete

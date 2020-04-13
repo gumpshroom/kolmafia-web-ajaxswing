@@ -1,1 +1,1 @@
-web: cd bin; sh ./startServer.sh
+web: cd bin; xvfb-run -a sh ./startServer.sh
