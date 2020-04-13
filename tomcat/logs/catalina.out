@@ -3425,3 +3425,123 @@ Local Directory is /Users/ggar/Library/Application Support/KoLmafia
 Using Java 1.8.0_241
 
 2020/04/13 12:52:57:204 : Thread-14 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
+2020/04/13 12:54:31:132 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+EventQueue initialized 
+
+KoLmafia v20.3
+Released on March 28, 2020
+
+Currently Running on Mac OS X
+Local Directory is /Users/ggar/Library/Application Support/KoLmafia
+Using Java 1.8.0_241
+
+2020/04/13 12:54:31:146 : Thread-16 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
+2020/04/13 12:56:41:296 : http-nio-8040-exec-8 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+EventQueue initialized 
+
+KoLmafia v20.3
+Released on March 28, 2020
+
+Currently Running on Mac OS X
+Local Directory is /Users/ggar/Library/Application Support/KoLmafia
+Using Java 1.8.0_241
+
+2020/04/13 12:56:41:300 : Thread-18 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
+2020/04/13 12:56:45:725 : http-nio-8040-exec-5 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+EventQueue initialized 
+
+KoLmafia v20.3
+Released on March 28, 2020
+
+Currently Running on Mac OS X
+Local Directory is /Users/ggar/Library/Application Support/KoLmafia
+Using Java 1.8.0_241
+
+2020/04/13 12:56:45:728 : Thread-20 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
+2020/04/13 12:56:45:899 : http-nio-8040-exec-1 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+EventQueue initialized 
+
+KoLmafia v20.3
+Released on March 28, 2020
+
+Currently Running on Mac OS X
+Local Directory is /Users/ggar/Library/Application Support/KoLmafia
+Using Java 1.8.0_241
+
+2020/04/13 12:56:45:902 : Thread-22 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
+2020/04/13 12:56:47:757 : http-nio-8040-exec-4 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Initializing the client, wait = true
+EventQueue initialized 
+
+KoLmafia v20.3
+Released on March 28, 2020
+
+Currently Running on Mac OS X
+Local Directory is /Users/ggar/Library/Application Support/KoLmafia
+Using Java 1.8.0_241
+
+2020/04/13 12:56:47:760 : Thread-24 : [com.creamtec.ajaxswing.ServletHelper$InProcessClientAgent] Failed to load and run class net.sourceforge.kolmafia.KoLmafia (Exception java.security.AccessControlException)
+Exception in thread "AWT-EventQueue-0" java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy5.handleQuit(Unknown Source)
+	at com.apple.eawt._AppEventLegacyHandler$7.dispatchEvent(_AppEventLegacyHandler.java:162)
+	at com.apple.eawt._AppEventLegacyHandler.sendEventToEachListenerUntilHandled(_AppEventLegacyHandler.java:184)
+	at com.apple.eawt._AppEventLegacyHandler.handleQuitRequestWith(_AppEventLegacyHandler.java:160)
+	at com.apple.eawt._AppEventHandler$_QuitDispatcher.performUsing(_AppEventHandler.java:395)
+	at com.apple.eawt._AppEventHandler$_QuitDispatcher.performUsing(_AppEventHandler.java:388)
+	at com.apple.eawt._AppEventHandler$_AppEventDispatcher$1.run(_AppEventHandler.java:516)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at apple.dts.samplecode.osxadapter.OSXAdapter.callTarget(OSXAdapter.java:195)
+	at apple.dts.samplecode.osxadapter.OSXAdapter.invoke(OSXAdapter.java:206)
+	... 21 more
+Caused by: java.security.AccessControlException: 
+	at com.creamtec.ajaxswing.core.ClientAgent.exit(ClientAgent.java:514)
+	at com.creamtec.ajaxswing.core.AjaxSwingSecurityManager.checkExit(AjaxSwingSecurityManager.java:30)
+	at java.lang.Runtime.exit(Runtime.java:107)
+	at java.lang.System.exit(System.java:971)
+	at net.sourceforge.kolmafia.KoLmafia.quit(KoLmafia.java:2237)
+	... 27 more
+13-Apr-2020 12:58:36.318 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Apr-2020 12:58:36.318 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.374 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Apr-2020 12:58:36.430 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+Forced shutdown monitor activated, will shutdown in 5 seconds
+13-Apr-2020 12:58:36.438 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-27] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ ForcedShutdownServlet.run(ForcedShutdownServlet.java:29)
+ java.lang.Thread.run(Thread.java:748)
+13-Apr-2020 12:58:36.445 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
+13-Apr-2020 12:58:36.445 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [AWT-EventQueue-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.awt.EventQueue.getNextEvent(EventQueue.java:554)
+ java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:187)
+ java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+ java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+ java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+ java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+ java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+13-Apr-2020 12:58:36.447 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.448 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Apr-2020 12:58:36.449 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.450 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Forcing shutdown

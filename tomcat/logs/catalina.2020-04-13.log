@@ -596,3 +596,29 @@
 13-Apr-2020 12:51:51.967 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
 13-Apr-2020 12:51:51.972 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 13-Apr-2020 12:51:51.973 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2530 ms
+13-Apr-2020 12:58:36.318 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Apr-2020 12:58:36.318 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.374 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Apr-2020 12:58:36.430 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Apr-2020 12:58:36.438 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-27] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ ForcedShutdownServlet.run(ForcedShutdownServlet.java:29)
+ java.lang.Thread.run(Thread.java:748)
+13-Apr-2020 12:58:36.445 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.creamtec.ajaxswing.servlet.SessionManager.run(SessionManager.java:135)
+13-Apr-2020 12:58:36.445 WARNING [0.0.0.0-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ajaxswing] appears to have started a thread named [AWT-EventQueue-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.awt.EventQueue.getNextEvent(EventQueue.java:554)
+ java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:187)
+ java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+ java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+ java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+ java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+ java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+13-Apr-2020 12:58:36.447 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.448 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Apr-2020 12:58:36.449 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8040"]
+13-Apr-2020 12:58:36.450 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
