@@ -1,1 +1,1 @@
-web: sh ./ajaxSwing.sh start
+web: cd bin; sh ./ajaxSwing.sh start
