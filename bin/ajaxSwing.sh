@@ -29,7 +29,7 @@ case "$1" in
 
         # Uncomment the following lines to run X Virtual Frame Buffer that provides simulated graphics environment
         echo "Running Xvfb"
-        exec Xvfb :1 &
+        exec Xvfb :1 -screen 0 640x480x24 -nolisten tcp  &
         echo "Running ajaxSwing"
         exec $AJAXSWING_HOME/bin/startServer.sh
         ;;
