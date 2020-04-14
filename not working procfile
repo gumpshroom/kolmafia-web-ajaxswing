@@ -1,0 +1,1 @@
+mkdir /tmp/.X11-unix; chown root:root /tmp/.X11-unix; cd bin; 
